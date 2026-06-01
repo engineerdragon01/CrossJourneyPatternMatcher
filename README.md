@@ -58,17 +58,17 @@ first, then see what they explored.
 
 ## Walkthrough
 
-**1. Landing page — pick a preset or describe your own symptoms**
+**1. Insights — patterns, interventions, and confidence from the matched cohort**
+
+![Insight view showing summary, observed patterns, interventions table with cohort evidence, and a confidence card](docs/insights.png)
+
+**2. Landing page — pick a preset or describe your own symptoms**
 
 ![Landing page showing three preset symptom pattern cards and a custom symptom editor](docs/landing-page.png)
 
-**2. Journey similarity — top-5 matched journeys with cosine similarity scores**
+**3. Journey similarity — top-5 matched journeys with cosine similarity scores**
 
 ![Matches view showing five patient journeys ranked by similarity percentage with score bars](docs/journey-similarity.png)
-
-**3. Insights — patterns, interventions, and confidence from the matched cohort**
-
-![Insight view showing summary, observed patterns, interventions table with cohort evidence, and a confidence card](docs/insights.png)
 
 ---
 
