@@ -5,11 +5,15 @@ interface Props {
   onReset: () => void;
 }
 
-function confidenceColor(confidence: string): string {
+type ConfidenceLevel = "high" | "moderate" | "low";
+
+function parseConfidence(confidence: string): { level: ConfidenceLevel; detail: string } {
   const word = confidence.toLowerCase().split(/[\s—–]/)[0];
-  if (word === "high") return "badge-high";
-  if (word === "moderate") return "badge-moderate";
-  return "badge-low";
+  const level: ConfidenceLevel =
+    word === "high" ? "high" : word === "moderate" ? "moderate" : "low";
+  // Strip the leading word + separator so we show only the explanation
+  const detail = confidence.replace(/^(high|moderate|low)\s*[—–-]?\s*/i, "").trim();
+  return { level, detail };
 }
 
 export function InsightView({ insight, onReset }: Props) {
@@ -39,6 +43,7 @@ export function InsightView({ insight, onReset }: Props) {
       {insight.interventions_to_explore.length > 0 && (
         <div className="card">
           <h3>Interventions people explored</h3>
+          <div className="intervention-table-wrap">
           <table className="intervention-table">
             <thead>
               <tr>
@@ -57,14 +62,20 @@ export function InsightView({ insight, onReset }: Props) {
               ))}
             </tbody>
           </table>
+          </div>
         </div>
       )}
 
-      <div className="confidence-row">
-        <span>Confidence:</span>
-        <span className={`badge ${confidenceColor(insight.confidence)}`}>
-          {insight.confidence}
-        </span>
+      <div className={`confidence-card confidence-${parseConfidence(insight.confidence).level}`}>
+        <div className="confidence-header">
+          <span className="confidence-label">Confidence</span>
+          <span className={`confidence-chip confidence-chip-${parseConfidence(insight.confidence).level}`}>
+            {parseConfidence(insight.confidence).level.toUpperCase()}
+          </span>
+        </div>
+        {parseConfidence(insight.confidence).detail && (
+          <p className="confidence-detail">{parseConfidence(insight.confidence).detail}</p>
+        )}
       </div>
 
       <button className="btn-ghost" onClick={onReset}>
