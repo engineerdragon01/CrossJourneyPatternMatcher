@@ -1,0 +1,5348 @@
+[
+  {
+    "id": "longcovid-001",
+    "condition": "Long COVID",
+    "demographics": "F, 34, Seattle",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "brain fog · heavy, can't finish sentences",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "wearable",
+        "text": "resting HR 98bpm, HRV tanked overnight",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "tried a short walk — crashed hard by evening",
+        "severity": 5
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "PEM hitting — back to bed, whole body feels like concrete",
+        "severity": 5
+      },
+      {
+        "day": 3,
+        "type": "med",
+        "text": "took LDN 1.5mg at bedtime",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "still crashed, unrefreshing sleep again",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "meal",
+        "text": "low-histamine soup, no leftovers — felt slightly less awful after",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "brain fog lifting a little · moderate",
+        "severity": 3
+      },
+      {
+        "day": 7,
+        "type": "wearable",
+        "text": "HR spiked to 122bpm just standing up from the couch",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "life",
+        "text": "stayed horizontal most of the day, watched TV from bed",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "finally a 5/10 day — made tea, answered emails",
+        "severity": 2
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "smell still blunted, coffee tastes like nothing",
+        "severity": 3
+      },
+      {
+        "day": 11,
+        "type": "med",
+        "text": "antihistamine (loratadine 10mg) added in the morning",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "less flushing today, mild headache remains",
+        "severity": 2
+      },
+      {
+        "day": 13,
+        "type": "life",
+        "text": "pacing plan in place — 10-min activity caps",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "low-histamine diet",
+        "outcome": "reduced flushing and headaches after 10 days",
+        "outcome_score": 1,
+        "notes": "hard to maintain; slipped twice with leftovers and paid for it"
+      },
+      {
+        "name": "low-dose naltrexone (LDN)",
+        "outcome": "no clear benefit yet after 2 weeks",
+        "outcome_score": 0,
+        "notes": "still adjusting dose, will reassess at week 4"
+      }
+    ]
+  },
+  {
+    "id": "longcovid-002",
+    "condition": "Long COVID",
+    "demographics": "M, 41, Austin",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up breathless just lying there, scary",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "wearable",
+        "text": "SpO2 96%, HR 104bpm at rest",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "skipped breakfast, stomach too unsettled",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "GI flare, bloated again 😩, skipped dinner",
+        "severity": 3
+      },
+      {
+        "day": 3,
+        "type": "med",
+        "text": "started famotidine 20mg twice daily",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "brain fog · heavy, lost my train of thought mid-sentence three times",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "called in sick, couldn't face the Zoom calls",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "heart racing 118bpm just standing up to get water",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "wearable",
+        "text": "orthostatic HR delta +32bpm — POTS territory confirmed",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "med",
+        "text": "increased salt and fluid intake per cardiologist advice",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "standing is slightly easier today · moderate",
+        "severity": 3
+      },
+      {
+        "day": 10,
+        "type": "meal",
+        "text": "small salty snack every 2 hours, actually helps a bit",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "crashed after folding laundry — back to bed for the afternoon",
+        "severity": 4
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "partner handling all cooking and errands this week",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "breathlessness at rest again, 3am woke me up",
+        "severity": 4
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "slightly better — managed 5 mins standing without HR spiking",
+        "severity": 2
+      },
+      {
+        "day": 15,
+        "type": "wearable",
+        "text": "overnight HRV improved marginally to 28ms",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "high-salt / high-fluid protocol for POTS",
+        "outcome": "mild improvement in standing tolerance after 1 week",
+        "outcome_score": 1,
+        "notes": "still symptomatic but less faint; compression socks also ordered"
+      },
+      {
+        "name": "famotidine 20mg twice daily",
+        "outcome": "GI bloating worsened initially, no net gain",
+        "outcome_score": -1,
+        "notes": "discontinued after 10 days due to increased nausea"
+      }
+    ]
+  },
+  {
+    "id": "longcovid-003",
+    "condition": "Long COVID",
+    "demographics": "F, 28, Nashville",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "taste still gone — ate spicy curry and felt nothing 😞",
+        "severity": 3
+      },
+      {
+        "day": 2,
+        "type": "life",
+        "text": "rested all day, trying to stick to pacing plan",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "unrefreshing sleep again — 9 hours and still exhausted",
+        "severity": 4
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "sleep score 41/100, deep sleep only 18 mins",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "meal",
+        "text": "anti-inflammatory smoothie — blueberries, ginger, turmeric",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "brain fog · moderate, reading the same paragraph five times",
+        "severity": 3
+      },
+      {
+        "day": 6,
+        "type": "med",
+        "text": "melatonin 0.5mg tried for sleep",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "slept 7.5 hours and actually felt it — a 5/10 morning!",
+        "severity": 2
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "overdid it — walked two blocks, PEM crash by 2pm",
+        "severity": 5
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "couldn't get off the couch, everything hurts",
+        "severity": 5
+      },
+      {
+        "day": 10,
+        "type": "life",
+        "text": "cancelled plans with friends again, guilt is real",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "brain fog lifting slightly · mild",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "wearable",
+        "text": "resting HR finally back under 90, first time in 2 weeks",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "meal",
+        "text": "ate a proper meal sitting at the table — small win",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "smell is back maybe 40%? noticed shampoo scent",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "melatonin 0.5mg at bedtime",
+        "outcome": "modest improvement in sleep quality in first week",
+        "outcome_score": 1,
+        "notes": "not a cure but taking the edge off; sleep score up from 41 to ~58"
+      },
+      {
+        "name": "strict pacing with 2-block activity limit",
+        "outcome": "reduced crash frequency when adhered to",
+        "outcome_score": 2,
+        "notes": "very hard emotionally but clearly working when I follow it"
+      }
+    ]
+  },
+  {
+    "id": "longcovid-004",
+    "condition": "Long COVID",
+    "demographics": "M, 55, Philadelphia",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "chest heaviness all morning, not quite pain but not nothing",
+        "severity": 3
+      },
+      {
+        "day": 1,
+        "type": "med",
+        "text": "continued metoprolol 25mg from cardiologist",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "wearable",
+        "text": "HR variability 19ms — worst reading this month",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "froze through three layers, couldn't warm up for hours",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "life",
+        "text": "worked from bed for 2 hours then had to stop",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "brain fog · heavy, spreadsheets looked like gibberish",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "meal",
+        "text": "wife made bone broth, managed to eat something warm",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "PEM hitting — back to bed, skipped all meetings",
+        "severity": 5
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "still crashed, breathless walking to the bathroom",
+        "severity": 5
+      },
+      {
+        "day": 8,
+        "type": "wearable",
+        "text": "SpO2 dipping to 94% during light activity",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "med",
+        "text": "prescribed low-dose aspirin 81mg by GP",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "chest heaviness down to a 2/5, small improvement",
+        "severity": 2
+      },
+      {
+        "day": 11,
+        "type": "life",
+        "text": "tried sitting on porch for 15 mins — that's my outside for the week",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "heart racing 115bpm after showering — exhausting",
+        "severity": 4
+      },
+      {
+        "day": 13,
+        "type": "meal",
+        "text": "low-salt meal per cardiologist guidance",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "energy at maybe 30% of pre-COVID, but stable today",
+        "severity": 3
+      },
+      {
+        "day": 15,
+        "type": "wearable",
+        "text": "resting HR dropped to 82bpm, small win",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "brain fog · moderate, at least I can read today",
+        "severity": 3
+      }
+    ],
+    "interventions": [
+      {
+        "name": "metoprolol 25mg for HR control",
+        "outcome": "strong relief — HR spikes less severe, chest heaviness reduced",
+        "outcome_score": 2,
+        "notes": "makes me tired but the HR control is worth it"
+      },
+      {
+        "name": "low-dose aspirin 81mg",
+        "outcome": "no measurable effect on symptoms after 2 weeks",
+        "outcome_score": 0,
+        "notes": "GP suggested trying for micro-clot hypothesis; nothing obvious yet"
+      }
+    ]
+  },
+  {
+    "id": "longcovid-005",
+    "condition": "Long COVID",
+    "demographics": "F, 22, Denver",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up with a 3/10 day — cautiously optimistic",
+        "severity": 2
+      },
+      {
+        "day": 1,
+        "type": "wearable",
+        "text": "Garmin body battery started at 28 — already low",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "tried a higher-protein breakfast to see if it helps energy",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "heart racing 120bpm just standing up — dizziness with it",
+        "severity": 4
+      },
+      {
+        "day": 3,
+        "type": "life",
+        "text": "class participation via voice note only, couldn't sit upright long",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "brain fog · heavy, missed a whole hour of lecture because brain just... left",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "med",
+        "text": "started CoQ10 200mg in the morning",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "crashed after short study session — PEM hitting bad",
+        "severity": 5
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "couldn't get off the couch, roommate brought me food",
+        "severity": 5
+      },
+      {
+        "day": 7,
+        "type": "wearable",
+        "text": "overnight HR never dropped below 78bpm",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "unrefreshing sleep, dreamed I was exhausted and woke up still exhausted",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "life",
+        "text": "requested academic accommodations — finally did it",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "meal",
+        "text": "anti-inflammatory diet day 7 — sticking to it",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "smell about 60% back today, noticed coffee again!",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "wearable",
+        "text": "body battery hit 55 — highest in 3 weeks",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "brain fog · mild, actually wrote two pages of notes",
+        "severity": 2
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "orthostatic HR still spiky but manageable with compression socks",
+        "severity": 3
+      }
+    ],
+    "interventions": [
+      {
+        "name": "CoQ10 200mg daily",
+        "outcome": "possible mild energy boost after 10 days, hard to isolate",
+        "outcome_score": 1,
+        "notes": "could be placebo but mornings feel slightly less awful"
+      },
+      {
+        "name": "anti-inflammatory diet",
+        "outcome": "no clear change in PEM or brain fog",
+        "outcome_score": 0,
+        "notes": "healthy but not the breakthrough I hoped for; keeping it up anyway"
+      },
+      {
+        "name": "compression socks for orthostatic symptoms",
+        "outcome": "reduced HR spikes on standing — noticeable difference",
+        "outcome_score": 2,
+        "notes": "annoying to put on when exhausted but genuinely helps"
+      }
+    ]
+  },
+  {
+    "id": "longcovid-006",
+    "condition": "Long COVID",
+    "demographics": "M, 48, Chicago",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "fatigue so heavy I described it to my wife as being made of sand",
+        "severity": 5
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "ivermectin protocol (self-prescribed, from online group)",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "wearable",
+        "text": "resting HR 101bpm, poor recovery score on Whoop",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "nausea all morning — wasn't sure if drug or condition",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "brain fog · heavy, couldn't remember my PIN at the ATM",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "stopped ivermectin after 4 days — felt worse not better",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "GI cramping, bloated again 😩",
+        "severity": 3
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "bland diet — rice, banana, broth",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "GI settling, still exhausted",
+        "severity": 3
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "HRV up slightly to 24ms from 17ms baseline",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "med",
+        "text": "started GP-recommended vitamin D 2000IU and B12",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "PEM after grocery trip — two days of crash for 20 minutes of standing",
+        "severity": 5
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "couldn't get off the couch, TV too loud for my head",
+        "severity": 4
+      },
+      {
+        "day": 13,
+        "type": "life",
+        "text": "wife handling everything, feeling guilty and useless",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "finally a 4/10 day — brain fog · mild",
+        "severity": 2
+      },
+      {
+        "day": 15,
+        "type": "meal",
+        "text": "ate dinner at the table for the first time this week",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "still tired but HR staying under 95 at rest",
+        "severity": 3
+      },
+      {
+        "day": 17,
+        "type": "wearable",
+        "text": "overnight recovery 43% — still low but trending up",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "ivermectin self-protocol",
+        "outcome": "felt worse — increased nausea and GI symptoms",
+        "outcome_score": -1,
+        "notes": "stopped after 4 days; GP advised against it; not repeating this"
+      },
+      {
+        "name": "vitamin D 2000IU + B12 supplementation",
+        "outcome": "too early to tell, bloods showed deficiency in both",
+        "outcome_score": 0,
+        "notes": "levels were low so probably worth doing regardless of LC benefit"
+      }
+    ]
+  },
+  {
+    "id": "longcovid-007",
+    "condition": "Long COVID",
+    "demographics": "F, 61, Portland",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "breathlessness at rest, had to sit down halfway through making breakfast",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "wearable",
+        "text": "SpO2 95% at rest, drops to 92% on mild exertion",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "pulmonologist added montelukast 10mg for airway inflammation",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "brain fog · moderate, forgot daughter's phone number I've known for years",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "meal",
+        "text": "soft foods only, swallowing feels effortful when fatigued",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "unrefreshing sleep again — woke at 3am with racing heart",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "nocturnal HR peaked at 108bpm, woke me from light sleep",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "life",
+        "text": "PT appointment via telehealth — breathwork exercises prescribed",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "tried breathwork, felt marginally calmer — still breathless though",
+        "severity": 3
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "hair in the drain again — third week of this 😔",
+        "severity": 2
+      },
+      {
+        "day": 9,
+        "type": "life",
+        "text": "rested the full day, no visitors, no calls",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "PEM hitting after short phone call — how is talking this hard?",
+        "severity": 4
+      },
+      {
+        "day": 11,
+        "type": "med",
+        "text": "hydroxyzine 10mg for sleep tried at night",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "slept 7 hours straight for the first time in a month",
+        "severity": 1
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "resting HR 86bpm, HRV 31ms — best readings in weeks",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "meal",
+        "text": "managed a full lunch with no crash afterward — tiny victory",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "breathlessness still there but less scary — 3/5 today",
+        "severity": 3
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "brain fog · mild, chatted with neighbor for 10 mins and kept up fine",
+        "severity": 2
+      },
+      {
+        "day": 17,
+        "type": "life",
+        "text": "scheduled a slow garden walk for tomorrow — first planned activity in weeks",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "garden walk went okay, no immediate crash — monitoring closely",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "montelukast 10mg daily",
+        "outcome": "breathlessness somewhat reduced after 2 weeks",
+        "outcome_score": 1,
+        "notes": "pulmonologist cautiously positive; SpO2 holding above 94% more consistently"
+      },
+      {
+        "name": "hydroxyzine 10mg for sleep",
+        "outcome": "significant improvement in sleep continuity",
+        "outcome_score": 2,
+        "notes": "first solid sleep in a month; grogginess in the morning is manageable"
+      },
+      {
+        "name": "PT breathing exercises (diaphragmatic)",
+        "outcome": "no change in breathlessness severity",
+        "outcome_score": 0,
+        "notes": "calming to do but objectively not moving the needle on SpO2 or exertion tolerance"
+      }
+    ]
+  },
+  {
+    "id": "pots-001",
+    "condition": "POTS",
+    "demographics": "F, 34, Seattle",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "heart racing 120bpm just standing up",
+        "severity": 5
+      },
+      {
+        "day": 1,
+        "type": "med",
+        "text": "started metoprolol 25mg",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "dizzy getting out of bed again — held the wall",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "high salt breakfast — extra salt on eggs, electrolyte drink",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "HR spike: 68 lying → 104 standing (Garmin)",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "nausea bad after shower — had to sit on floor",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "put on compression stockings for the first time",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "brain fog · heavy — couldn't finish a sentence",
+        "severity": 3
+      },
+      {
+        "day": 7,
+        "type": "wearable",
+        "text": "resting HR 72, standing HR 101 — slight improvement",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "finally a 5/10 day, stood in kitchen for 20 min",
+        "severity": 2
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "forgot electrolytes — big mistake",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "crashed after skipping fluids — back on the couch",
+        "severity": 4
+      },
+      {
+        "day": 11,
+        "type": "life",
+        "text": "worked from home standing desk attempt — gave up after 10 min",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "palpitations woke me up at 3am",
+        "severity": 4
+      },
+      {
+        "day": 13,
+        "type": "med",
+        "text": "metoprolol dose reviewed — staying at 25mg for now",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "tolerated a short slow walk outside — mild dizziness only",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "metoprolol 25mg daily",
+        "outcome": "HR spikes slightly reduced but still symptomatic",
+        "outcome_score": 1,
+        "notes": "some fatigue as side effect; not fully controlled yet"
+      },
+      {
+        "name": "high-salt / high-fluid diet",
+        "outcome": "noticeable improvement on days followed consistently",
+        "outcome_score": 2,
+        "notes": "hard to maintain every day; skipping causes rebound symptoms"
+      }
+    ]
+  },
+  {
+    "id": "pots-002",
+    "condition": "POTS",
+    "demographics": "M, 27, Austin",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "pre-syncope standing in line at the grocery store — almost went down",
+        "severity": 5
+      },
+      {
+        "day": 2,
+        "type": "life",
+        "text": "told boss I can't do standing shifts anymore",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "med",
+        "text": "started fludrocortisone 0.1mg",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "bloated and headachy — not sure if it's the med",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "Apple Watch: standing HR avg 118 bpm today",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "couldn't get off the couch until noon",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "drank 2L water + 3000mg sodium today per cardiologist plan",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "felt weirdly okay — walked to mailbox without graying out",
+        "severity": 2
+      },
+      {
+        "day": 9,
+        "type": "life",
+        "text": "slept 10 hours, still woke up exhausted",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "overnight HR dip to 52 — feels low but doc says okay",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "bad nausea all morning, skipped breakfast",
+        "severity": 3
+      },
+      {
+        "day": 12,
+        "type": "meal",
+        "text": "salty soup and Liquid IV — trying to stay on top of it",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "heart racing 115bpm just brushing teeth standing up",
+        "severity": 4
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "dizziness lighter today — 4/10 day overall",
+        "severity": 2
+      },
+      {
+        "day": 17,
+        "type": "life",
+        "text": "missed family dinner because standing for 2 hrs felt impossible",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "fatigue crushing — slept through the alarm twice",
+        "severity": 4
+      }
+    ],
+    "interventions": [
+      {
+        "name": "fludrocortisone 0.1mg",
+        "outcome": "minimal change after 2 weeks; bloating worsened",
+        "outcome_score": 0,
+        "notes": "GI side effects bothersome; will reassess at next cardiology visit"
+      },
+      {
+        "name": "aggressive salt and fluid loading",
+        "outcome": "mild improvement on consistent days",
+        "outcome_score": 1,
+        "notes": "compliance is the challenge — hard when nausea is bad"
+      }
+    ]
+  },
+  {
+    "id": "pots-003",
+    "condition": "POTS",
+    "demographics": "F, 22, Nashville",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up, stood up, heart went nuts — counted 130bpm on my watch",
+        "severity": 5
+      },
+      {
+        "day": 1,
+        "type": "wearable",
+        "text": "Fitbit confirms: resting 65, standing 133 — 68 bpm jump",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "life",
+        "text": "missed morning class — couldn't stand long enough to shower",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "salty crackers and Pedialyte — desperate measures",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "nausea so bad — dry heaved in the bathroom",
+        "severity": 5
+      },
+      {
+        "day": 4,
+        "type": "med",
+        "text": "started propranolol 10mg twice daily",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "brain fog · heavy — staring at my notes like they're in another language",
+        "severity": 4
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "standing HR today: 109 — down from 133, maybe meds helping",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "ordered abdominal compression binder online",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "palpitations in class — had to step out and lie down in the hall",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "high protein high salt lunch — felt slightly better afternoon",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "almost fainted at the dining hall — friend caught me",
+        "severity": 5
+      },
+      {
+        "day": 11,
+        "type": "med",
+        "text": "propranolol bumped to 20mg twice daily after episode",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "fatigue heavy but no pre-syncope today — small win",
+        "severity": 3
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "dizzy spells shorter — standing 5 min without grabbing something",
+        "severity": 3
+      },
+      {
+        "day": 16,
+        "type": "wearable",
+        "text": "standing HR 98 — first time under 100 in two weeks",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "life",
+        "text": "compression binder arrived — wore it all day",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "actually a 6/10 day — ate lunch standing at the counter 😊",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "propranolol (escalated to 20mg BID)",
+        "outcome": "meaningful HR reduction and fewer pre-syncope episodes",
+        "outcome_score": 2,
+        "notes": "fatigue persists but tachycardia much better controlled"
+      },
+      {
+        "name": "abdominal compression binder",
+        "outcome": "modest symptom relief when worn consistently",
+        "outcome_score": 1,
+        "notes": "uncomfortable in hot weather; compliance may drop in summer"
+      }
+    ]
+  },
+  {
+    "id": "pots-004",
+    "condition": "POTS",
+    "demographics": "F, 45, Phoenix",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "dizziness every time I stand — worse in the heat here",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "life",
+        "text": "AC broke — worst possible timing",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "forced myself to drink 2.5L today — bathroom every hour",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "crashed after morning walk — back to bed by 9am",
+        "severity": 5
+      },
+      {
+        "day": 4,
+        "type": "wearable",
+        "text": "Oura ring: HRV crashed overnight, resting HR elevated at 88",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "med",
+        "text": "started midodrine 5mg three times daily",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "scalp tingling and goosebumps — midodrine side effect apparently",
+        "severity": 2
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "palpitations bad — felt like heart was flopping around",
+        "severity": 4
+      },
+      {
+        "day": 8,
+        "type": "life",
+        "text": "wore compression knee highs all day — hot but helped?",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "nausea all morning again — skipped breakfast",
+        "severity": 3
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "standing HR today: 112 — hasn't improved much on midodrine",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "meal",
+        "text": "electrolyte soup for lunch — actually kind of nice",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "brain fog so thick I burned dinner just standing at the stove",
+        "severity": 4
+      },
+      {
+        "day": 15,
+        "type": "life",
+        "text": "cardiology appointment — doc adding IV saline infusion trial",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "med",
+        "text": "first IV saline infusion 1L — lay in clinic for an hour",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "symptom",
+        "text": "actually felt human yesterday and this morning — standing for 15 min no problem",
+        "severity": 2
+      },
+      {
+        "day": 18,
+        "type": "wearable",
+        "text": "standing HR 94 post-infusion — best reading in weeks",
+        "severity": null
+      },
+      {
+        "day": 19,
+        "type": "symptom",
+        "text": "benefits fading already — dizzy again by afternoon",
+        "severity": 3
+      },
+      {
+        "day": 20,
+        "type": "life",
+        "text": "scheduled weekly infusions — fingers crossed this holds",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "midodrine 5mg TID",
+        "outcome": "no meaningful improvement; side effects unpleasant",
+        "outcome_score": -1,
+        "notes": "tingling, supine hypertension risk; may discontinue"
+      },
+      {
+        "name": "IV saline infusion 1L",
+        "outcome": "dramatic short-term relief but effects lasted less than 24 hours",
+        "outcome_score": 1,
+        "notes": "not sustainable long-term; exploring weekly schedule"
+      }
+    ]
+  },
+  {
+    "id": "pots-005",
+    "condition": "POTS",
+    "demographics": "M, 52, Chicago",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "HR jumped to 125 just walking to the kitchen — this is new for me",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "life",
+        "text": "googled symptoms at 2am — landed on POTS, showed GP",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "meal",
+        "text": "cut coffee completely — hoping it helps the palpitations",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "caffeine withdrawal headache on top of everything — miserable",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "Polar watch: orthostatic HR delta 42bpm this morning",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "fatigue like I've been hit by a truck — can't drive today",
+        "severity": 5
+      },
+      {
+        "day": 7,
+        "type": "med",
+        "text": "started low-dose atenolol 12.5mg",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "light-headed standing from desk every time — grabbing chair back",
+        "severity": 3
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "salty snacks all day + extra water — trying the protocol",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "life",
+        "text": "elevated head of bed by 4 inches as recommended",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "wearable",
+        "text": "standing HR 108 — down from 125, atenolol doing something",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "decent day — walked around the block, only mild dizziness",
+        "severity": 2
+      },
+      {
+        "day": 14,
+        "type": "life",
+        "text": "returned to light desk work — took breaks lying down",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "palpitations at dinner — lasted about 20 minutes, scary",
+        "severity": 4
+      },
+      {
+        "day": 17,
+        "type": "wearable",
+        "text": "HRV improving slightly — Polar shows trend upward this week",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "brain fog lifting a bit — finished a work report today",
+        "severity": 2
+      },
+      {
+        "day": 20,
+        "type": "meal",
+        "text": "big salty pasta lunch — felt good all afternoon honestly",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "atenolol 12.5mg daily",
+        "outcome": "HR reduced, palpitations less frequent",
+        "outcome_score": 1,
+        "notes": "some exercise intolerance as side effect; dose may need adjusting"
+      },
+      {
+        "name": "head-of-bed elevation + salt loading",
+        "outcome": "gradual improvement in morning symptoms over 10 days",
+        "outcome_score": 2,
+        "notes": "simple to implement; biggest bang for buck so far"
+      }
+    ]
+  },
+  {
+    "id": "pots-006",
+    "condition": "POTS",
+    "demographics": "F, 29, Denver",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "stood up fast — world went gray for a second, heart pounding",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "wearable",
+        "text": "Whoop: strain low but recovery 14% — body is struggling",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "tried low-histamine eating today — plain chicken and rice, ugh",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "fatigue so heavy I cancelled plans — lying on the floor felt like the only option",
+        "severity": 5
+      },
+      {
+        "day": 4,
+        "type": "life",
+        "text": "finally got compression leggings — medical grade 20-30mmHg",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "wore compression leggings all day — palpitations a bit quieter?",
+        "severity": 3
+      },
+      {
+        "day": 6,
+        "type": "med",
+        "text": "started propranolol 10mg as needed for worst episodes",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "nausea hit hard after standing in line at pharmacy — had to sit on the floor",
+        "severity": 4
+      },
+      {
+        "day": 8,
+        "type": "wearable",
+        "text": "standing HR 116 — altitude here in Denver not helping I think",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "low-histamine day 8 — no obvious improvement, craving everything",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "dizzy spells back with a vengeance today",
+        "severity": 4
+      },
+      {
+        "day": 11,
+        "type": "life",
+        "text": "therapist appointment — talked about anxiety from not knowing when I'll crash",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "brain fog · medium — made it through a zoom call at least",
+        "severity": 3
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "resting HR down to 68 this morning — small positive",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "pre-syncope at the grocery store again — called my partner to pick me up",
+        "severity": 5
+      },
+      {
+        "day": 15,
+        "type": "med",
+        "text": "propranolol taken during episode — HR came down within 30 min",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "rough night — woke up with racing heart at 2am",
+        "severity": 4
+      },
+      {
+        "day": 17,
+        "type": "life",
+        "text": "started gentle recumbent bike — 5 min only, as tolerated",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "actually a 5/10 day — cautiously optimistic",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "low-histamine diet",
+        "outcome": "no measurable improvement after 9 days",
+        "outcome_score": 0,
+        "notes": "very restrictive and hard to sustain; abandoning this approach"
+      },
+      {
+        "name": "medical-grade compression leggings",
+        "outcome": "mild reduction in palpitation severity during upright activities",
+        "outcome_score": 1,
+        "notes": "hard to put on during fatigue flares; heat is an issue"
+      },
+      {
+        "name": "propranolol 10mg PRN",
+        "outcome": "helpful during acute episodes — HR response faster",
+        "outcome_score": 2,
+        "notes": "not a daily fix but good rescue option"
+      }
+    ]
+  },
+  {
+    "id": "pots-007",
+    "condition": "POTS",
+    "demographics": "F, 38, Boston",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "heart racing 122bpm just standing to answer the door",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "life",
+        "text": "requested wheelchair for upcoming airport travel — felt defeated",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "meal",
+        "text": "3000mg sodium today — salted literally everything",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "palpitations during meeting — muted myself and lay on the carpet",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "med",
+        "text": "started ivabradine 5mg twice daily — new trial from cardiologist",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "Apple Watch standing HR: 107 — subtle drop since starting ivabradine",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "visual flickering side effect from ivabradine — a bit alarming",
+        "severity": 2
+      },
+      {
+        "day": 8,
+        "type": "life",
+        "text": "partner took over morning school drop-off — can't stand that long",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "fatigue crushing — napped twice and still exhausted",
+        "severity": 5
+      },
+      {
+        "day": 10,
+        "type": "meal",
+        "text": "electrolyte water all day + salty snacks — staying consistent",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "wearable",
+        "text": "Garmin: orthostatic HR delta down to 28bpm — first time under 30 in months",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "stood for 20 min cooking dinner — minor dizziness only, huge improvement",
+        "severity": 2
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "brain fog lifting — wrote a whole email without losing my train of thought",
+        "severity": 2
+      },
+      {
+        "day": 14,
+        "type": "life",
+        "text": "walked to coffee shop (10 min each way) — rested halfway but did it",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "med",
+        "text": "ivabradine continued — cardiologist happy with HR trends",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "wearable",
+        "text": "HRV up 18% from baseline week — recovery improving",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "symptom",
+        "text": "nausea mild after lunch — possibly postural, ate too fast",
+        "severity": 2
+      },
+      {
+        "day": 18,
+        "type": "life",
+        "text": "back to one day of hybrid work — exhausting but possible",
+        "severity": null
+      },
+      {
+        "day": 19,
+        "type": "symptom",
+        "text": "finally a 6/10 day — first time in over a month 🎉",
+        "severity": 1
+      },
+      {
+        "day": 20,
+        "type": "wearable",
+        "text": "standing HR 94 — sustained improvement, not a fluke",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "ivabradine 5mg BID",
+        "outcome": "significant HR reduction and functional improvement over 2 weeks",
+        "outcome_score": 2,
+        "notes": "visual flicker side effect noted but tolerable; will continue"
+      },
+      {
+        "name": "recumbent rest protocol + salt loading",
+        "outcome": "supportive — hard to isolate from ivabradine effect",
+        "outcome_score": 1,
+        "notes": "likely synergistic; maintaining both"
+      }
+    ]
+  },
+  {
+    "id": "mcas-001",
+    "condition": "MCAS",
+    "demographics": "F, 34, Seattle",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "brain fog · heavy, couldn't finish a sentence",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "meal",
+        "text": "leftover pasta with tomato sauce — bad idea in hindsight",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "flushing all down my neck and chest, so embarrassing at work",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "took cetirizine 10mg after lunch",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "hives on forearms · moderate, itchy as hell",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "wearable",
+        "text": "resting HR elevated — avg 98bpm all morning",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "GI cramping woke me at 3am, barely slept",
+        "severity": 5
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "stressful presentation at work, probably didn't help",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "meal",
+        "text": "tried low-histamine dinner — plain chicken and rice",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "slightly calmer day, maybe a 4/10 but still foggy",
+        "severity": 2
+      },
+      {
+        "day": 8,
+        "type": "med",
+        "text": "added quercetin supplement with breakfast",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "throat tightness after someone's perfume in the elevator 😩",
+        "severity": 4
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "HRV tanked overnight — 18ms, usually 42ms",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "finally a 5/10 day, actually left the apartment",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "avoided wine at dinner party, drank water all night",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "mild flushing after excitement watching a movie, weird trigger",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "low-histamine diet",
+        "outcome": "reduced flares after 2 weeks",
+        "outcome_score": 1,
+        "notes": "hard to stick to; still getting occasional reactions"
+      },
+      {
+        "name": "cetirizine 10mg daily",
+        "outcome": "mild reduction in hive frequency",
+        "outcome_score": 1,
+        "notes": "helps but doesn't stop the flares entirely"
+      }
+    ]
+  },
+  {
+    "id": "mcas-002",
+    "condition": "MCAS",
+    "demographics": "M, 41, Austin",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "meal",
+        "text": "had a glass of red wine with dinner — totally forgot it's a trigger",
+        "severity": null
+      },
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "flushing started within 20 minutes, face beet red",
+        "severity": 5
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "woke up bloated and crampy, skipped breakfast",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "diphenhydramine 25mg before bed",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "groggy from benadryl, brain fog worse than the flare honestly",
+        "severity": 3
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "heart rate 112bpm just standing up making coffee",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "life",
+        "text": "called in sick, couldn't face the commute",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "hives on my back and stomach · pretty bad",
+        "severity": 4
+      },
+      {
+        "day": 6,
+        "type": "meal",
+        "text": "strict low-histamine today — fresh turkey, zucchini, olive oil",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "still crampy despite eating clean, so frustrating",
+        "severity": 3
+      },
+      {
+        "day": 8,
+        "type": "wearable",
+        "text": "sleep score 54 — worst in two weeks per Garmin",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "couldn't get off the couch, whole body felt heavy",
+        "severity": 4
+      },
+      {
+        "day": 10,
+        "type": "med",
+        "text": "switched to loratadine 10mg, doc suggested it",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "life",
+        "text": "grocery store trip wiped me out, scented candle aisle was awful",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "throat tight after walking through cleaning products section",
+        "severity": 4
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "marginally better — maybe a 4/10, less flushing today",
+        "severity": 2
+      },
+      {
+        "day": 14,
+        "type": "wearable",
+        "text": "resting HR back down to 78bpm, some improvement",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "diphenhydramine 25mg",
+        "outcome": "made brain fog worse, didn't control flares",
+        "outcome_score": -1,
+        "notes": "sedation was too heavy; switched away after a few days"
+      },
+      {
+        "name": "loratadine 10mg daily",
+        "outcome": "slight improvement in flushing frequency",
+        "outcome_score": 1,
+        "notes": "better tolerated than benadryl, still early"
+      }
+    ]
+  },
+  {
+    "id": "mcas-003",
+    "condition": "MCAS",
+    "demographics": "F, 27, Portland",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "life",
+        "text": "started food diary app, trying to track every trigger",
+        "severity": null
+      },
+      {
+        "day": 1,
+        "type": "meal",
+        "text": "kombucha and kimchi for lunch because 'gut health' — total rookie mistake",
+        "severity": null
+      },
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "bloated again 😩 and GI cramps hit fast",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "hives spreading from neck to shoulders, itching woke me up",
+        "severity": 5
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "cetirizine 10mg + famotidine 20mg combo",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "Oura ring shows body temp +0.8°F above baseline, possible inflammation",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "brain fog so thick I reread the same email four times",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "meal",
+        "text": "plain rice, cucumber, pear — sticking to safe foods list",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "flare calming down, flushing less intense today",
+        "severity": 2
+      },
+      {
+        "day": 6,
+        "type": "life",
+        "text": "yoga class — instructor lit incense halfway through, had to leave",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "throat tightness and burning eyes after incense, really scary",
+        "severity": 5
+      },
+      {
+        "day": 7,
+        "type": "med",
+        "text": "used epinephrine pen — throat tightness was progressing",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "exhausted after yesterday's reaction, just rested all day",
+        "severity": 3
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "HRV recovering slowly — 28ms vs usual 45ms",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "finally a 6/10 day — ate two safe meals without incident",
+        "severity": 1
+      },
+      {
+        "day": 11,
+        "type": "life",
+        "text": "told my roommate no scented products in shared spaces",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "mild flushing after getting emotionally worked up on a call",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "cetirizine + famotidine H1/H2 combo",
+        "outcome": "noticeably fewer mild flares",
+        "outcome_score": 2,
+        "notes": "dual antihistamine approach seems more effective than H1 alone"
+      },
+      {
+        "name": "low-histamine and low-fermented diet",
+        "outcome": "strong reduction in GI symptoms",
+        "outcome_score": 2,
+        "notes": "social eating is really hard now but body responds well"
+      }
+    ]
+  },
+  {
+    "id": "mcas-004",
+    "condition": "MCAS",
+    "demographics": "F, 52, Denver",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "flushing episodes three times today, unpredictable as ever",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "cromolyn sodium oral drops before each meal",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "safe breakfast — oatmeal and blueberries, no issues",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "still flushing, cromolyn not doing anything obvious yet",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "wearable",
+        "text": "Fitbit shows 14 restless episodes last night, bad sleep",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "GI flare after lunch, skipped dinner, not worth the risk",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "skipped book club — couldn't risk someone's perfume setting me off",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "brain fog · heavy, couldn't do my crossword, that's my benchmark",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "accidentally ate aged cheese at a meeting — didn't realize it was in the salad",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "massive hives within the hour, arms and torso covered",
+        "severity": 5
+      },
+      {
+        "day": 8,
+        "type": "med",
+        "text": "prednisone 20mg short course prescribed by allergist",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "hives calming down on prednisone, flushing less too",
+        "severity": 2
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "resting HR 84bpm, down from 101 at peak of flare",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "decent day — maybe 5/10, got through a full grocery shop",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "allergist appointment — reviewing trigger list and adjusting meds",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "mild throat tightness after a strong cleaning product smell at the clinic, ironic",
+        "severity": 3
+      },
+      {
+        "day": 14,
+        "type": "meal",
+        "text": "homemade safe soup — felt in control for once",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "quiet day, just some mild fatigue, calling it a win",
+        "severity": 1
+      }
+    ],
+    "interventions": [
+      {
+        "name": "cromolyn sodium oral drops",
+        "outcome": "no noticeable change in flare frequency",
+        "outcome_score": 0,
+        "notes": "gave it a full week, hard to say if it helped at all"
+      },
+      {
+        "name": "prednisone short course",
+        "outcome": "rapid relief of acute hive flare",
+        "outcome_score": 2,
+        "notes": "not a long-term option but cleared this flare quickly"
+      }
+    ]
+  },
+  {
+    "id": "mcas-005",
+    "condition": "MCAS",
+    "demographics": "M, 29, Minneapolis",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "life",
+        "text": "new job started — office is full of air fresheners, already anxious",
+        "severity": null
+      },
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "headache and flushing by noon, definitely the office environment",
+        "severity": 3
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "grabbed deli meat sandwich — forgot deli meat is high histamine 🤦",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "GI cramping all afternoon, missed two meetings",
+        "severity": 4
+      },
+      {
+        "day": 3,
+        "type": "med",
+        "text": "fexofenadine 180mg in the morning",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "Apple Watch flagged irregular heart rhythm notification — freaked me out",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "heart racing 118bpm just walking to the printer, people stared",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "hives on my neck · mild, wore a high collar to hide them",
+        "severity": 2
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "asked HR about air freshener policy, they were surprisingly understanding",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "meal",
+        "text": "meal prepped safe foods for the whole week — proud of that",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "fexofenadine feels like it's doing nothing honestly",
+        "severity": 3
+      },
+      {
+        "day": 8,
+        "type": "med",
+        "text": "doc added ranitidine equivalent — nizatidine 150mg twice daily",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "sleep HRV improved slightly — 33ms vs 24ms earlier this week",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "brain fog lifted enough to actually focus for 2 hours straight",
+        "severity": 2
+      },
+      {
+        "day": 11,
+        "type": "life",
+        "text": "air fresheners removed from my floor, what a difference",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "pretty good day — 6/10, ate lunch without anxiety",
+        "severity": 1
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "mild flushing after a stressful client call, stress is definitely a trigger",
+        "severity": 2
+      },
+      {
+        "day": 14,
+        "type": "wearable",
+        "text": "resting HR steadily dropping — 76bpm today",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "fexofenadine 180mg",
+        "outcome": "minimal impact on flares or symptoms",
+        "outcome_score": 0,
+        "notes": "tried for a full week, didn't feel like it was doing much"
+      },
+      {
+        "name": "fexofenadine + nizatidine H1/H2 combo",
+        "outcome": "gradual improvement in brain fog and flushing",
+        "outcome_score": 1,
+        "notes": "adding H2 blocker seemed to make a real difference"
+      },
+      {
+        "name": "trigger avoidance (scent-free office)",
+        "outcome": "significant drop in daily flare frequency",
+        "outcome_score": 2,
+        "notes": "environmental controls were just as important as meds"
+      }
+    ]
+  },
+  {
+    "id": "mcas-006",
+    "condition": "MCAS",
+    "demographics": "F, 61, Nashville",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "bad flushing episode during church, so humiliating",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "fermented sauerkraut with dinner — thought it was fine because it's 'healthy'",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "bloated again 😩 and cramping all night, no sleep",
+        "severity": 5
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "blood pressure cuff shows 148/92 this morning, not usual for me",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "med",
+        "text": "took hydroxyzine 25mg — been prescribed for anxiety but helps the itch too",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "slept 11 hours on hydroxyzine, groggy all morning",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "granddaughter's birthday party — candles, perfume, new plastic toys — a minefield",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "throat tightening at the party, stepped outside for 20 minutes",
+        "severity": 4
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "hives across chest and collarbone, raised welts",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "med",
+        "text": "cetirizine 10mg replacing hydroxyzine — less sedating",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "meal",
+        "text": "very careful today — fresh baked potato, olive oil, fresh herbs only",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "step count only 1,200 — basically didn't leave the bedroom",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "couldn't get off the couch, whole body ached and felt inflamed",
+        "severity": 5
+      },
+      {
+        "day": 10,
+        "type": "life",
+        "text": "daughter researched low-histamine recipes, making a cookbook folder together",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "marginally less flushing today, maybe cetirizine helping a little",
+        "severity": 3
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "hives fading, still there but not raised anymore",
+        "severity": 2
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "BP 132/84 — still elevated but trending better",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "5/10 day, made it to the garden, small victory",
+        "severity": 2
+      },
+      {
+        "day": 15,
+        "type": "meal",
+        "text": "first low-histamine dinner with daughter, actually tasted good",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "hydroxyzine 25mg",
+        "outcome": "excessive sedation, impaired functioning",
+        "outcome_score": -1,
+        "notes": "too heavy; sleeping through the day isn't managing MCAS, it's hiding from it"
+      },
+      {
+        "name": "cetirizine 10mg daily",
+        "outcome": "mild reduction in hive severity over a week",
+        "outcome_score": 1,
+        "notes": "less sedating, more livable"
+      }
+    ]
+  },
+  {
+    "id": "mcas-007",
+    "condition": "MCAS",
+    "demographics": "M, 38, Philadelphia",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "life",
+        "text": "started seeing a new allergist who actually knows MCAS, hopeful",
+        "severity": null
+      },
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "flushing after eating leftover Thai takeout — classic",
+        "severity": 3
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "montelukast 10mg added to my current antihistamines",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "wearable",
+        "text": "Whoop strap recovery score 28% — body is stressed",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "brain fog · heavy — lost my train of thought mid-sentence at lunch",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "meal",
+        "text": "spinach smoothie — found out later spinach is high histamine, oops",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "hives on arms and jaw · moderate, came out of nowhere",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "GI cramping and runs all morning, cancelled my gym session",
+        "severity": 4
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "resting HR 95bpm for 3 hours after eating, definitely food-triggered",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "told my partner about low-histamine diet — they're on board to cook together",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "meal",
+        "text": "first full week of strict low-histamine — meal prepped Sunday",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "crashed after a morning walk, back to bed for two hours",
+        "severity": 3
+      },
+      {
+        "day": 10,
+        "type": "med",
+        "text": "allergist added vitamin C 1000mg as natural antihistamine support",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "brain fog lifting a bit — read for an hour without losing focus",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "wearable",
+        "text": "HRV climbing back up — 38ms, best in three weeks",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "mild flushing after a hot shower but no hives, progress",
+        "severity": 2
+      },
+      {
+        "day": 14,
+        "type": "life",
+        "text": "actually made it to a friend's dinner — brought my own food, they were cool about it",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "finally a 6/10 day, actually felt like myself for a few hours",
+        "severity": 1
+      },
+      {
+        "day": 16,
+        "type": "meal",
+        "text": "safe meal out at a restaurant — plain grilled fish, steamed veg — success",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "symptom",
+        "text": "light throat tightness walking past a detergent aisle, still reactive to scents",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "montelukast 10mg",
+        "outcome": "no clear change in flare pattern after two weeks",
+        "outcome_score": 0,
+        "notes": "allergist may deprescribe — not seeing the benefit"
+      },
+      {
+        "name": "strict low-histamine diet",
+        "outcome": "gradual reduction in GI symptoms and brain fog",
+        "outcome_score": 2,
+        "notes": "takes real effort and planning but the payoff is real"
+      },
+      {
+        "name": "vitamin C 1000mg daily",
+        "outcome": "mild possible benefit, hard to isolate from diet changes",
+        "outcome_score": 1,
+        "notes": "cheap and low-risk, keeping it in the routine"
+      }
+    ]
+  },
+  {
+    "id": "sibo-001",
+    "condition": "SIBO/IBS",
+    "demographics": "F, 34, Seattle",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "bloated like a balloon after breakfast 😩",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "meal",
+        "text": "oatmeal with honey and almond milk — classic mistake",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "gas pain all night, barely slept",
+        "severity": 4
+      },
+      {
+        "day": 3,
+        "type": "med",
+        "text": "started rifaximin 550mg twice daily",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "cramping mid-afternoon, had to lie down",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "HRV down to 28 — gut stress showing up in the data",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "meal",
+        "text": "tried low-FODMAP: grilled chicken, rice, carrots — felt okay after",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "loose stool three times before noon",
+        "severity": 3
+      },
+      {
+        "day": 9,
+        "type": "life",
+        "text": "work deadline stress — definitely made things worse",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "bloating a bit better today, cautiously optimistic",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "wearable",
+        "text": "sleep score 61 — restless from gas pain overnight",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "finally a 5/10 day, almost normal",
+        "severity": 2
+      },
+      {
+        "day": 15,
+        "type": "med",
+        "text": "added peppermint oil capsules before meals",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "meal",
+        "text": "accidentally ate garlic in restaurant sauce — immediate regret",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "symptom",
+        "text": "flare after dinner out, distended belly, couldn't button jeans",
+        "severity": 5
+      }
+    ],
+    "interventions": [
+      {
+        "name": "rifaximin course",
+        "outcome": "moderate reduction in gas and bloating by week 2",
+        "outcome_score": 1,
+        "notes": "symptoms improved but didn't fully resolve; may need repeat course"
+      },
+      {
+        "name": "peppermint oil capsules",
+        "outcome": "noticeable cramping relief within days",
+        "outcome_score": 2,
+        "notes": "biggest win so far — taking before every meal now"
+      }
+    ]
+  },
+  {
+    "id": "sibo-002",
+    "condition": "SIBO/IBS",
+    "demographics": "M, 28, Austin",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up with stomach cramps, skipped gym",
+        "severity": 3
+      },
+      {
+        "day": 1,
+        "type": "meal",
+        "text": "protein shake with whey and banana — probably the culprit",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "tried over-the-counter probiotic, fingers crossed",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "actually worse after probiotic — more gas than before 😤",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "life",
+        "text": "told my boss I'd be working from home until this settles",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "alternating between constipation and rushing to the bathroom all day",
+        "severity": 4
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "resting HR elevated at 88bpm — body definitely inflamed",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "started strict low-FODMAP: eggs, zucchini, plain rice",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "cramping eased a little but still bloated after every meal",
+        "severity": 3
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "nausea hit mid-morning, couldn't eat lunch",
+        "severity": 3
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "cancelled plans with friends again — frustrating",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "wearable",
+        "text": "steps only 2,100 today — just couldn't push through the bloat",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "brain fog · heavy, can't concentrate on anything",
+        "severity": 3
+      },
+      {
+        "day": 17,
+        "type": "meal",
+        "text": "low-FODMAP stir fry with tofu, bok choy, tamari — tolerated well",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "best day in weeks — maybe a 5/10",
+        "severity": 2
+      },
+      {
+        "day": 20,
+        "type": "symptom",
+        "text": "flare back after eating out, not sure what triggered it",
+        "severity": 4
+      }
+    ],
+    "interventions": [
+      {
+        "name": "probiotic supplement",
+        "outcome": "symptoms got noticeably worse in first week",
+        "outcome_score": -1,
+        "notes": "GI doc said some SIBO patients react badly to probiotics — stopped taking"
+      },
+      {
+        "name": "low-FODMAP diet",
+        "outcome": "gradual improvement over two weeks",
+        "outcome_score": 1,
+        "notes": "hard to maintain socially but definitely helping; eating out is nearly impossible"
+      }
+    ]
+  },
+  {
+    "id": "sibo-003",
+    "condition": "SIBO/IBS",
+    "demographics": "F, 52, Denver",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up at 3am with gas pain, couldn't get back to sleep",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "started rifaximin per GI doc — finally got the prescription",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "keeping a food diary now — logging everything I eat",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "nausea after lunch, only managed half my meal",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "wearable",
+        "text": "Oura ring showing stress score 8/10 for three days straight",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "skipped yoga class — too uncomfortable to even stretch",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "constipated — day 4 with no movement, uncomfortable",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "food diary: added psyllium husk to smoothie, doctor suggestion",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "bloated again 😩 nothing seems to be helping yet",
+        "severity": 4
+      },
+      {
+        "day": 10,
+        "type": "med",
+        "text": "finished rifaximin course — hope this did something",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "some relief! less gas today, belly feels softer",
+        "severity": 2
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "HRV improving — 44 today vs 28 last week",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "had a normal bowel movement — celebrated this small win",
+        "severity": 1
+      },
+      {
+        "day": 16,
+        "type": "life",
+        "text": "made it to yoga! modified poses but felt great to move",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "symptom",
+        "text": "light bloating after a big dinner but manageable — 6/10 day",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "rifaximin course",
+        "outcome": "significant improvement in constipation and gas by end of treatment",
+        "outcome_score": 2,
+        "notes": "best response to any treatment so far; GI doc recommending maintenance plan"
+      },
+      {
+        "name": "psyllium husk fiber",
+        "outcome": "no clear change in symptoms",
+        "outcome_score": 0,
+        "notes": "tried for two weeks, couldn't tell if it was helping or the rifaximin doing the work"
+      }
+    ]
+  },
+  {
+    "id": "sibo-004",
+    "condition": "SIBO/IBS",
+    "demographics": "M, 41, Chicago",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "bloating hit hard by 10am, had to loosen my belt at work",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "life",
+        "text": "stressful week — big project at work, probably not helping",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "food diary entry: coffee, bagel, cream cheese — bad idea in hindsight",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "cramping so bad I left work early and went straight to bed",
+        "severity": 5
+      },
+      {
+        "day": 4,
+        "type": "med",
+        "text": "started peppermint oil capsules, 187mg before each meal",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "loose stool twice, cramping a little less sharp",
+        "severity": 3
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "only 900 steps today — the worst gut days tank my activity",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "switched to low-FODMAP: rice cakes, turkey, cucumber, olive oil",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "gas pain woke me up at 2am again 😤",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "life",
+        "text": "told my wife what's been going on — felt less alone",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "nausea before dinner, skipped eating — just ginger tea",
+        "severity": 3
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "sleep tracking shows I'm waking 6+ times — gut definitely disrupting rest",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "bloating down maybe 30%, still uncomfortable after lunch",
+        "severity": 3
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "best stretch in a while — two decent days in a row",
+        "severity": 2
+      },
+      {
+        "day": 20,
+        "type": "meal",
+        "text": "food diary: reintroduced onion in small amount — immediate bloating response",
+        "severity": null
+      },
+      {
+        "day": 21,
+        "type": "symptom",
+        "text": "flare after onion reintroduction, back to square one feeling",
+        "severity": 4
+      }
+    ],
+    "interventions": [
+      {
+        "name": "peppermint oil capsules",
+        "outcome": "mild reduction in cramping severity",
+        "outcome_score": 1,
+        "notes": "takes the edge off but not a solution on its own"
+      },
+      {
+        "name": "low-FODMAP diet",
+        "outcome": "gradual bloating reduction but adherence is rough",
+        "outcome_score": 1,
+        "notes": "hard to follow with a busy work schedule; slip-ups cause immediate setbacks"
+      }
+    ]
+  },
+  {
+    "id": "sibo-005",
+    "condition": "SIBO/IBS",
+    "demographics": "F, 23, Portland",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up so bloated I looked pregnant, so embarrassing",
+        "severity": 5
+      },
+      {
+        "day": 1,
+        "type": "meal",
+        "text": "food diary: kombucha and lentil soup for dinner last night — regret it",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "started high-dose probiotic recommended by naturopath",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "probiotic making it worse?? more gas and cramps than before",
+        "severity": 5
+      },
+      {
+        "day": 4,
+        "type": "life",
+        "text": "missed another morning lecture — can't sit comfortably for an hour",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "stopped probiotic — GI flare, skipped dinner",
+        "severity": 4
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "Garmin stress score maxed out at 95 — body is freaking out",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "med",
+        "text": "GI doc prescribed rifaximin after breath test confirmed SIBO",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "cramping and alternating loose stool / constipation — awful day",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "starting strict low-FODMAP per registered dietitian guidance",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "brain fog · heavy — can't study at all today",
+        "severity": 3
+      },
+      {
+        "day": 12,
+        "type": "wearable",
+        "text": "resting HR 92bpm — elevated, probably from inflammation and poor sleep",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "first day under severity 3 in two weeks, tiny victory",
+        "severity": 2
+      },
+      {
+        "day": 16,
+        "type": "life",
+        "text": "made it to all classes today — feeling cautiously hopeful",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "symptom",
+        "text": "mild bloating after meals but nothing like before",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "probiotic supplement (naturopath recommended)",
+        "outcome": "significant worsening — had to stop after 3 days",
+        "outcome_score": -1,
+        "notes": "GI doctor confirmed this is common with SIBO; probiotics can feed the bacteria"
+      },
+      {
+        "name": "rifaximin course",
+        "outcome": "clear improvement beginning by end of first week",
+        "outcome_score": 2,
+        "notes": "combined with low-FODMAP this has been the most effective approach by far"
+      },
+      {
+        "name": "low-FODMAP diet",
+        "outcome": "helped maintain improvement during antibiotic course",
+        "outcome_score": 1,
+        "notes": "dietitian guidance made it manageable; meal prep on Sundays is key"
+      }
+    ]
+  },
+  {
+    "id": "sibo-006",
+    "condition": "SIBO/IBS",
+    "demographics": "M, 58, Miami",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "gas pain after every meal, feeling miserable",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "food diary: Cuban black beans, rice, plantains — favorite foods are the worst offenders",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "med",
+        "text": "started peppermint oil enteric coated caps — pharmacist suggested",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "bloated again 😩 peppermint not doing much yet",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "retired but cancelling golf again — can't be far from a bathroom",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "blood pressure slightly elevated at 138/88 — stress from gut pain not helping",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "loose stool four times today — exhausted and dehydrated feeling",
+        "severity": 4
+      },
+      {
+        "day": 8,
+        "type": "meal",
+        "text": "trying low-FODMAP: tilapia, white rice, cooked carrots, olive oil",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "no change — still bloated and cramping after plain meals",
+        "severity": 4
+      },
+      {
+        "day": 11,
+        "type": "med",
+        "text": "GI doc added rifaximin — starting today",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "sleep only 5.5 hours — woke twice from cramping",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "nausea hit hard, only ate crackers all day",
+        "severity": 3
+      },
+      {
+        "day": 17,
+        "type": "life",
+        "text": "wife noticed I seem less irritable today — gut must be settling",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "gas pain noticeably less, had a normal day",
+        "severity": 2
+      },
+      {
+        "day": 20,
+        "type": "symptom",
+        "text": "finally made it back to golf — 6/10 day but I'll take it",
+        "severity": 2
+      },
+      {
+        "day": 22,
+        "type": "wearable",
+        "text": "HRV improving steadily — 38 today, up from 24 at worst",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "peppermint oil capsules",
+        "outcome": "no meaningful effect on symptoms",
+        "outcome_score": 0,
+        "notes": "used for 10 days with no change; may not work for methane-dominant SIBO"
+      },
+      {
+        "name": "rifaximin course",
+        "outcome": "good improvement in gas pain and frequency by day 7",
+        "outcome_score": 2,
+        "notes": "GI doc discussing a second course as preventive measure in 3 months"
+      }
+    ]
+  },
+  {
+    "id": "sibo-007",
+    "condition": "SIBO/IBS",
+    "demographics": "F, 37, Nashville",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up already bloated before eating anything — so frustrating",
+        "severity": 3
+      },
+      {
+        "day": 1,
+        "type": "med",
+        "text": "continuing rifaximin day 5 of 14 — halfway there",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "food diary: safe low-FODMAP breakfast — eggs, spinach, sourdough toast, black coffee",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "constipated — day 3 without going, belly is rock hard",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "wearable",
+        "text": "Apple Watch showing elevated resting HR all week — 84bpm average",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "had to work from couch all day, couldn't wear regular pants",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "cramping in waves all afternoon — nothing helped",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "food diary: made low-FODMAP chicken soup — first meal that didn't cause pain",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "mild nausea this morning, passed by noon",
+        "severity": 2
+      },
+      {
+        "day": 9,
+        "type": "med",
+        "text": "finished rifaximin — fingers crossed for some lasting relief",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "slept 7.5 hours — first decent sleep in two weeks",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "bloating way down, jeans fit normally today 🙌",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "went to farmer's market, carefully avoided high-FODMAP samples",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "meal",
+        "text": "food diary: accidentally ate a peach — forgot it's high-FODMAP",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "flare after the peach, gas pain and loose stool — lesson learned",
+        "severity": 4
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "bounced back faster than usual — settled within a day",
+        "severity": 2
+      },
+      {
+        "day": 17,
+        "type": "wearable",
+        "text": "HRV back to baseline 46 — body recovering well",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "feeling almost normal — 7/10 day, best in a month",
+        "severity": 1
+      }
+    ],
+    "interventions": [
+      {
+        "name": "rifaximin course",
+        "outcome": "strong relief of bloating and cramping within a week of finishing",
+        "outcome_score": 2,
+        "notes": "most effective treatment tried so far; planning to discuss maintenance with GI doc"
+      },
+      {
+        "name": "low-FODMAP diet",
+        "outcome": "helpful for maintenance but slip-ups cause immediate flares",
+        "outcome_score": 1,
+        "notes": "need to be more careful with fruit; stone fruits are a hidden trigger"
+      }
+    ]
+  },
+  {
+    "id": "hashimotos-001",
+    "condition": "Hashimoto's",
+    "demographics": "F, 34, Seattle",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "brain fog · heavy, couldn't string a sentence together at work",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "wearable",
+        "text": "resting HR 58, HRV low at 22ms, sleep score 51",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "gluten-free oatmeal and almond milk — felt okay after",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "froze through three layers sitting at my desk",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "med",
+        "text": "Levothyroxine 75mcg taken at 6am, fasted 45 min after",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "hair in the drain again — clump bigger than usual",
+        "severity": 3
+      },
+      {
+        "day": 6,
+        "type": "life",
+        "text": "stressful performance review, felt wiped out by noon",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "couldn't get off the couch — called in sick",
+        "severity": 5
+      },
+      {
+        "day": 8,
+        "type": "wearable",
+        "text": "steps only 1,200 today, body temp feeling subnormal",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "tried a salad with walnuts — slight bloat afterward",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "constipation day 3, uncomfortable and sluggish",
+        "severity": 3
+      },
+      {
+        "day": 11,
+        "type": "med",
+        "text": "TSH lab draw — result came back at 6.8, doctor flagged it",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "dose bumped to 88mcg, pharmacist counseled on timing",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "still foggy but slightly less heavy — maybe a 3 today",
+        "severity": 3
+      },
+      {
+        "day": 14,
+        "type": "wearable",
+        "text": "HRV nudged up to 28ms, sleep 6h45m",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "finally a 5/10 day — made it through dinner with friends",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "Levothyroxine dose increase to 88mcg",
+        "outcome": "gradual improvement in energy and fog over two weeks",
+        "outcome_score": 1,
+        "notes": "still waiting for full effect; retesting TSH in 6 weeks"
+      },
+      {
+        "name": "gluten-free diet trial",
+        "outcome": "no noticeable change in symptoms after two weeks",
+        "outcome_score": 0,
+        "notes": "difficult to maintain socially; unclear benefit so far"
+      }
+    ]
+  },
+  {
+    "id": "hashimotos-002",
+    "condition": "Hashimoto's",
+    "demographics": "F, 28, Austin",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "weight up 4 lbs this week — barely eating anything",
+        "severity": 3
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "eggs and avocado toast, black coffee — no issues",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "hands like ice blocks even in the warm office",
+        "severity": 2
+      },
+      {
+        "day": 4,
+        "type": "med",
+        "text": "Levothyroxine 50mcg, morning dose — remembered this time",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "overnight skin temp low, Oura flagged readiness score 42",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "brain fog · medium, lost track of what I was saying mid-meeting",
+        "severity": 3
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "skipped yoga — just no energy to get up",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "bloated again 😩 after a normal lunch",
+        "severity": 2
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "bone broth and soft veggies — easier on stomach",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "resting HR 62, steps 3,400 — lower than target",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "fatigue wave hit around 2pm, had to nap at my desk",
+        "severity": 4
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "free T3 result: 2.1 pg/mL — on the low end of normal",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "med",
+        "text": "doctor added small T3 supplement trial (liothyronine 5mcg)",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "palpitations shortly after taking T3 — felt heart fluttering",
+        "severity": 4
+      },
+      {
+        "day": 15,
+        "type": "life",
+        "text": "called doctor, told to stop liothyronine immediately",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "palpitations gone but exhausted from the whole episode",
+        "severity": 3
+      },
+      {
+        "day": 17,
+        "type": "wearable",
+        "text": "HR settled back to 60bpm, HRV recovering at 31ms",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "okay-ish day — maybe a 5/10, got laundry done",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "liothyronine T3 supplement (5mcg trial)",
+        "outcome": "caused palpitations — discontinued after one day",
+        "outcome_score": -1,
+        "notes": "not suitable at this dose; doctor reconsidering approach"
+      },
+      {
+        "name": "bone broth and anti-inflammatory meal plan",
+        "outcome": "mild reduction in bloating over the week",
+        "outcome_score": 1,
+        "notes": "easier to follow than strict elimination diets"
+      }
+    ]
+  },
+  {
+    "id": "hashimotos-003",
+    "condition": "Hashimoto's",
+    "demographics": "M, 41, Denver",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "life",
+        "text": "annual thyroid panel scheduled, fasted since last night",
+        "severity": null
+      },
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "heavy legs walking up two flights of stairs — embarrassing",
+        "severity": 3
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "Levothyroxine 100mcg, same dose for 8 months now",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "Fitbit: avg resting HR 64, sleep efficiency 67%, restless",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "constipation again — day two, took MiraLAX",
+        "severity": 2
+      },
+      {
+        "day": 5,
+        "type": "meal",
+        "text": "pizza night — felt sluggish and puffy the next morning",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "brain fog · medium — stared at the same email for 20 minutes",
+        "severity": 3
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "TSH result back: 4.2 — doctor says in range but borderline",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "cold feet at night, wore socks to bed — wife laughed",
+        "severity": 2
+      },
+      {
+        "day": 9,
+        "type": "meal",
+        "text": "started selenium-rich Brazil nuts — one daily per protocol",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "step count 8,200 — best day this week, felt it though",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "crashed after a 20-min walk — back on the couch for hours",
+        "severity": 4
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "told boss I might need accommodations — hard conversation",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "med",
+        "text": "dose nudged up to 112mcg at follow-up appointment",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "still dragging but slightly less foggy — or just hopeful?",
+        "severity": 3
+      },
+      {
+        "day": 15,
+        "type": "wearable",
+        "text": "HRV 34ms, up from baseline 26ms — small positive sign",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "hair noticeably thinner at crown — noticed in mirror",
+        "severity": 3
+      },
+      {
+        "day": 17,
+        "type": "meal",
+        "text": "anti-inflammatory bowl: salmon, sweet potato, spinach",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "6/10 day — felt almost like myself for a couple of hours",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "Levothyroxine dose increase to 112mcg",
+        "outcome": "early signs of improvement in fog and energy",
+        "outcome_score": 1,
+        "notes": "need 6-week retest to confirm TSH response"
+      },
+      {
+        "name": "daily selenium supplementation (Brazil nuts)",
+        "outcome": "no measurable change in symptoms after two weeks",
+        "outcome_score": 0,
+        "notes": "continuing for now; may take longer to see thyroid antibody effect"
+      },
+      {
+        "name": "anti-inflammatory meal plan",
+        "outcome": "reduced next-day puffiness when maintained",
+        "outcome_score": 1,
+        "notes": "hard to keep up on weekends; family not always on board"
+      }
+    ]
+  },
+  {
+    "id": "hashimotos-004",
+    "condition": "Hashimoto's",
+    "demographics": "F, 52, Chicago",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up exhausted — slept 9 hours and still felt empty",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "wearable",
+        "text": "Apple Watch: resting HR 59, HRV 19ms — stress indicator high",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "hands and feet freezing during book club — kept apologizing for the cold handshakes",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "meal",
+        "text": "soy latte in the morning — later read soy can affect thyroid absorption",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "med",
+        "text": "switched Levothyroxine 88mcg timing to 5am to avoid food interactions",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "brain fog lifted slightly mid-afternoon — noticed it because it's rare",
+        "severity": 2
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "skipped the gym, guilt spiral, ended up crying a bit — frustrating",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "hair in the drain again — handful, not just a few strands",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "sleep 7h12m, deep sleep only 44 min — feel it in the morning",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "meal",
+        "text": "cut out soy completely, switched to oat milk — no immediate change",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "bloated again 😩 — abdomen tight after a light dinner",
+        "severity": 3
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "free T3 came back: 2.4 pg/mL — low-normal, doctor not alarmed",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "weight up again — scale says +2 lbs, I haven't cheated at all",
+        "severity": 3
+      },
+      {
+        "day": 14,
+        "type": "med",
+        "text": "added vitamin D 2000 IU per doctor's suggestion — deficient on last panel",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "wearable",
+        "text": "steps 5,600 — decent day, didn't crash afterward",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "fatigue cycle hit again around 11am — needed the couch",
+        "severity": 4
+      },
+      {
+        "day": 17,
+        "type": "life",
+        "text": "joined Hashimoto's support group online — first meeting tonight",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "slight mood lift after support group — still tired but less alone",
+        "severity": 2
+      },
+      {
+        "day": 19,
+        "type": "meal",
+        "text": "tried AIP breakfast: turkey, sweet potato, steamed kale — not bad",
+        "severity": null
+      },
+      {
+        "day": 20,
+        "type": "symptom",
+        "text": "almost a 5/10 — got through a full workday from home",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "early morning Levothyroxine timing adjustment",
+        "outcome": "slight improvement in afternoon alertness after one week",
+        "outcome_score": 1,
+        "notes": "early alarm disruptive to sleep at first; worth it if it holds"
+      },
+      {
+        "name": "soy elimination",
+        "outcome": "no clear change in symptoms or lab values",
+        "outcome_score": 0,
+        "notes": "removing a potential absorption blocker, but too early to tell"
+      },
+      {
+        "name": "vitamin D supplementation 2000 IU",
+        "outcome": "mood and energy slightly improved over two weeks",
+        "outcome_score": 1,
+        "notes": "was deficient; expect full effect at 8-week recheck"
+      }
+    ]
+  },
+  {
+    "id": "hashimotos-005",
+    "condition": "Hashimoto's",
+    "demographics": "F, 23, Portland",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "can't focus on anything — brain fog · heavy, missed two zoom calls",
+        "severity": 5
+      },
+      {
+        "day": 1,
+        "type": "life",
+        "text": "finally got the Hashimoto's diagnosis after a year of being told it's anxiety",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "started Levothyroxine 25mcg — lowest dose to start",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "Garmin: resting HR 56, stress score 72 out of 100",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "cold hands, cold feet — wore gloves inside the apartment",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "meal",
+        "text": "gluten-free pasta dinner, felt fine afterward — hopeful",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "constipation — day four, very uncomfortable",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "told roommate about the diagnosis — she was supportive",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "fatigue cycle again, slept 11 hours and still groggy",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "HRV 25ms, body battery started at 38 — barely enough to shower",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "meal",
+        "text": "tried going full AIP — hard at 23 with a tight budget and no car",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "GI flare, skipped dinner, just sipped broth",
+        "severity": 3
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "TSH at diagnosis was 9.2 — rechecked now at 7.1, slight improvement",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "brain fog lighter today — maybe a 3 — texted my mom about it",
+        "severity": 3
+      },
+      {
+        "day": 14,
+        "type": "med",
+        "text": "dose bumped to 37.5mcg — splitting 25 and 12.5 tablets",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "headache after dose change — felt off all morning",
+        "severity": 3
+      },
+      {
+        "day": 16,
+        "type": "wearable",
+        "text": "sleep 8h20m, deep sleep 1h10m — best night in weeks",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "symptom",
+        "text": "headache gone, energy maybe 40% of normal — I'll take it",
+        "severity": 2
+      },
+      {
+        "day": 18,
+        "type": "life",
+        "text": "went to a friend's birthday — left early but I went!",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "Levothyroxine initiation and titration",
+        "outcome": "TSH dropping, brain fog improving after three weeks",
+        "outcome_score": 1,
+        "notes": "dose adjustment caused brief headache; settled after 48 hours"
+      },
+      {
+        "name": "AIP diet attempt",
+        "outcome": "triggered GI flare; too restrictive to maintain on budget",
+        "outcome_score": -1,
+        "notes": "abandoned after one week; exploring gentler dietary changes instead"
+      }
+    ]
+  },
+  {
+    "id": "hashimotos-006",
+    "condition": "Hashimoto's",
+    "demographics": "F, 47, Nashville",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "weight gain despite eating like a bird all week — so demoralizing",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "wearable",
+        "text": "Oura: readiness 38, resting HR 61, HRV 20ms",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "meal",
+        "text": "green smoothie with kale and flaxseed — felt virtuous but bloated",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "brain fog · medium — couldn't remember the word 'umbrella' mid-sentence",
+        "severity": 3
+      },
+      {
+        "day": 5,
+        "type": "med",
+        "text": "Levothyroxine 112mcg — on this dose 3 months, TSH now 1.9",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "life",
+        "text": "meditation app streak broken — too tired to even sit still for 5 minutes",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "hair shedding on pillow again — found strands on my sweater all day",
+        "severity": 3
+      },
+      {
+        "day": 8,
+        "type": "meal",
+        "text": "started low-glycemic meal plan — chicken, broccoli, quinoa rotation",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "steps 4,100 — low, but didn't crash, which is new",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "cold feet woke me up at 2am — thick socks helped eventually",
+        "severity": 2
+      },
+      {
+        "day": 11,
+        "type": "life",
+        "text": "Hashimoto's Facebook group recommended inositol supplement — researching",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "med",
+        "text": "started myo-inositol 2g/day based on online research, not doctor-approved",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "nausea and loose stools after inositol — spent the morning in the bathroom",
+        "severity": 4
+      },
+      {
+        "day": 14,
+        "type": "life",
+        "text": "called doctor — advised to stop inositol, confirm any new supplements first",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "GI settled down, back to baseline tired — annoyed at the setback",
+        "severity": 3
+      },
+      {
+        "day": 16,
+        "type": "wearable",
+        "text": "HRV recovering to 27ms, sleep 7h — stabilizing",
+        "severity": null
+      },
+      {
+        "day": 17,
+        "type": "meal",
+        "text": "low-glycemic plan still going — noticing less afternoon crash",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "energy a bit better — maybe 5/10, managed an evening walk",
+        "severity": 2
+      },
+      {
+        "day": 19,
+        "type": "life",
+        "text": "follow-up appointment booked — will discuss if dose is still right",
+        "severity": null
+      },
+      {
+        "day": 20,
+        "type": "symptom",
+        "text": "brain fog lighter — full sentence at book club, small win",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "myo-inositol supplement (unsupervised)",
+        "outcome": "caused nausea and GI distress — discontinued after two days",
+        "outcome_score": -1,
+        "notes": "not recommended without medical supervision; lesson learned"
+      },
+      {
+        "name": "low-glycemic meal plan",
+        "outcome": "reduced afternoon energy crashes within one week",
+        "outcome_score": 2,
+        "notes": "sustainable and noticeable; will continue and discuss with dietitian"
+      }
+    ]
+  },
+  {
+    "id": "hashimotos-007",
+    "condition": "Hashimoto's",
+    "demographics": "M, 38, Boston",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "dragging at work — fatigue cycle hit by 10am, coffee didn't touch it",
+        "severity": 4
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "Levothyroxine 88mcg, been on this dose 5 months",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "Whoop: recovery 18%, HRV 22ms — body screaming for rest",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "meal",
+        "text": "took the team to lunch — ate pasta, regretted it by 3pm, foggy and puffy",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "constipation — uncomfortable, took magnesium citrate",
+        "severity": 3
+      },
+      {
+        "day": 6,
+        "type": "life",
+        "text": "wife pointed out I've been 'off' for months — agreed, hard to hear",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "brain fog · heavy — missed a deadline because I forgot it existed",
+        "severity": 5
+      },
+      {
+        "day": 8,
+        "type": "med",
+        "text": "TSH lab result: 5.4 — elevated despite medication, back to doctor",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "life",
+        "text": "doctor increased Levothyroxine to 100mcg, discuss absorption issues",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "cold hands shaking client's hand in meeting — embarrassing",
+        "severity": 2
+      },
+      {
+        "day": 11,
+        "type": "wearable",
+        "text": "resting HR 63, strain score low — body not ready for exercise",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "meal",
+        "text": "started avoiding coffee within 4 hours of Levothyroxine — annoying but trying",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "crashed after morning walk — back in bed by 9am",
+        "severity": 4
+      },
+      {
+        "day": 14,
+        "type": "life",
+        "text": "free T3: 2.3 pg/mL — low-normal, doctor not ready to add T3 yet",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "wearable",
+        "text": "HRV up slightly to 29ms, Whoop recovery at 34% — tiny improvement",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "brain fog · medium — still not right but could function today",
+        "severity": 3
+      },
+      {
+        "day": 17,
+        "type": "meal",
+        "text": "anti-inflammatory dinner: grilled salmon, roasted beets, arugula",
+        "severity": null
+      },
+      {
+        "day": 18,
+        "type": "symptom",
+        "text": "weight still creeping up — scale says +5 lbs this month",
+        "severity": 3
+      },
+      {
+        "day": 19,
+        "type": "life",
+        "text": "started therapy to manage the emotional weight of chronic illness",
+        "severity": null
+      },
+      {
+        "day": 20,
+        "type": "symptom",
+        "text": "slightly better day — 5/10, got through a full 8 hours",
+        "severity": 2
+      },
+      {
+        "day": 21,
+        "type": "wearable",
+        "text": "sleep 7h48m, deep sleep 1h22m, HRV 33ms — best reading in weeks",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "Levothyroxine dose increase to 100mcg",
+        "outcome": "gradual improvement in cognition and energy after two weeks",
+        "outcome_score": 1,
+        "notes": "TSH recheck scheduled at week 6; cautiously optimistic"
+      },
+      {
+        "name": "coffee and calcium separation from medication",
+        "outcome": "no clear short-term symptom change but absorption may improve",
+        "outcome_score": 0,
+        "notes": "logical intervention; effects may only show in next TSH draw"
+      },
+      {
+        "name": "therapy for chronic illness adjustment",
+        "outcome": "reduced emotional distress and improved coping within first two sessions",
+        "outcome_score": 2,
+        "notes": "highly recommended; the psychological load of Hashimoto's is underestimated"
+      }
+    ]
+  },
+  {
+    "id": "fibro-001",
+    "condition": "Fibromyalgia",
+    "demographics": "F, 34, Seattle",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up feeling like I got hit by a truck — full body ache",
+        "severity": 5
+      },
+      {
+        "day": 1,
+        "type": "med",
+        "text": "started duloxetine 30mg with breakfast",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "brain fog · heavy, couldn't finish a sentence",
+        "severity": 4
+      },
+      {
+        "day": 3,
+        "type": "meal",
+        "text": "oatmeal and banana, kept it light",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "tender points flaring on shoulders and hips",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "Fitbit: 4.2hrs sleep, HRV 18ms — worse than usual",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "fatigue after a 10-min walk — had to sit on the curb",
+        "severity": 4
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "called in sick to work, couldn't face the commute",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "slept 9hrs and still feel like garbage",
+        "severity": 3
+      },
+      {
+        "day": 9,
+        "type": "med",
+        "text": "duloxetine dose — took it earlier in the day to test timing",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "Fitbit: sleep score 54, restless all night",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "finally a 5/10 day — small win",
+        "severity": 2
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "rainy cold front rolled in — dreading tomorrow",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "weather hit hard, widespread aching from neck to knees",
+        "severity": 5
+      },
+      {
+        "day": 14,
+        "type": "meal",
+        "text": "tried anti-inflammatory bowl: salmon, spinach, turmeric rice",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "duloxetine 30mg daily",
+        "outcome": "mild pain reduction after 2 weeks, sleep still poor",
+        "outcome_score": 1,
+        "notes": "nausea first few days; sticking with it"
+      },
+      {
+        "name": "weather tracking journal",
+        "outcome": "no improvement in symptoms, just confirmed the pattern",
+        "outcome_score": 0,
+        "notes": "useful data but doesn't help prevent flares"
+      }
+    ]
+  },
+  {
+    "id": "fibro-002",
+    "condition": "Fibromyalgia",
+    "demographics": "M, 42, Denver",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "couldn't get off the couch — legs feel like concrete",
+        "severity": 5
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "low-dose naltrexone 1.5mg before bed",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "symptom",
+        "text": "vivid weird dreams — naltrexone side effect maybe?",
+        "severity": 2
+      },
+      {
+        "day": 4,
+        "type": "life",
+        "text": "skipped gym again, third week in a row — feeling defeated",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "Apple Watch: resting HR 88bpm, sleep 5.1hrs",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "brain fog rolling in like a cloud — lost my keys twice",
+        "severity": 3
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "pizza night — probably a bad idea, felt gross after",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "GI upset and bloating after last night's pizza 😩",
+        "severity": 3
+      },
+      {
+        "day": 10,
+        "type": "med",
+        "text": "LDN bumped to 3mg per rheumatologist",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "tender points on ribcage — even shirt fabric hurts",
+        "severity": 4
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "Watch: sleep improved slightly — 6hrs, HRV 22ms",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "less fog today, almost felt like myself for an hour",
+        "severity": 2
+      },
+      {
+        "day": 15,
+        "type": "life",
+        "text": "took a short drive to the park — major effort but did it",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "crashed after park trip — back to bed by noon",
+        "severity": 4
+      },
+      {
+        "day": 18,
+        "type": "meal",
+        "text": "eating more whole foods this week, cutting out processed stuff",
+        "severity": null
+      },
+      {
+        "day": 20,
+        "type": "symptom",
+        "text": "pain dialed back to a 4 today — best day in weeks",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "low-dose naltrexone 1.5mg → 3mg",
+        "outcome": "gradual cognitive improvement, some pain relief by week 3",
+        "outcome_score": 1,
+        "notes": "sleep disturbances early on; dreams were intense"
+      },
+      {
+        "name": "processed food elimination",
+        "outcome": "GI symptoms improved, overall flares slightly reduced",
+        "outcome_score": 1,
+        "notes": "hard to maintain on busy weeks"
+      }
+    ]
+  },
+  {
+    "id": "fibro-003",
+    "condition": "Fibromyalgia",
+    "demographics": "F, 27, Austin",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke up with that heavy full-body dread again",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "life",
+        "text": "PT recommended gentle yoga — skeptical but agreed to try",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "meal",
+        "text": "smoothie: spinach, blueberries, ginger — trying to eat better",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "tried 15min yoga — paid for it hard the next morning",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "post-exercise crash, back and hips screaming",
+        "severity": 5
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "Garmin: stress score 78/100, sleep quality 'poor'",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "med",
+        "text": "took ibuprofen — barely touched the pain",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "still wrecked from that yoga session four days ago",
+        "severity": 4
+      },
+      {
+        "day": 8,
+        "type": "life",
+        "text": "called PT, she said I overdid it — scale back to 5 mins",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "symptom",
+        "text": "tender points on neck so bad I can't turn my head",
+        "severity": 5
+      },
+      {
+        "day": 10,
+        "type": "wearable",
+        "text": "Garmin: 5.8hrs sleep, 3 disturbances recorded",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "brain fog · heavy, stared at email for 20 mins and gave up",
+        "severity": 4
+      },
+      {
+        "day": 12,
+        "type": "meal",
+        "text": "ate mostly crackers and soup — no energy to cook",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "pain down to a 3 today — could sit upright for a few hours",
+        "severity": 3
+      },
+      {
+        "day": 14,
+        "type": "life",
+        "text": "5min gentle stretching only — felt okay during, nervous for tomorrow",
+        "severity": null
+      }
+    ],
+    "interventions": [
+      {
+        "name": "gentle yoga (15 min sessions)",
+        "outcome": "significant flare immediately after — had to stop and restart much smaller",
+        "outcome_score": -1,
+        "notes": "too much too soon; 5-min sessions may be more sustainable"
+      },
+      {
+        "name": "ibuprofen as needed",
+        "outcome": "minimal impact on fibro pain",
+        "outcome_score": 0,
+        "notes": "doesn't seem to work for this type of pain"
+      }
+    ]
+  },
+  {
+    "id": "fibro-004",
+    "condition": "Fibromyalgia",
+    "demographics": "F, 51, Minneapolis",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "froze through three layers today — cold sensitivity is unreal",
+        "severity": 3
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "duloxetine 60mg, day 45 — seems to be holding steady",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "Oura ring: readiness score 32 — body saying 'no'",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "slept 10hrs and woke up exhausted — non-restorative night again",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "grandkids visited — pushed through it, so worth it",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "paid for yesterday big time — widespread aching from head to toe",
+        "severity": 5
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "anti-inflammatory: turmeric chicken soup, avoided gluten",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "tender points on hips and lower back · severe",
+        "severity": 5
+      },
+      {
+        "day": 9,
+        "type": "med",
+        "text": "added magnesium glycinate 400mg at bedtime per rheumatologist",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "slept a little better? hard to tell, brain still fuzzy",
+        "severity": 3
+      },
+      {
+        "day": 11,
+        "type": "wearable",
+        "text": "Oura: deep sleep up from 0.4hrs to 1.1hrs — noticeable!",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "set a strict 10pm sleep cutoff this week",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "symptom",
+        "text": "finally a 4/10 day — did a load of laundry, felt human",
+        "severity": 2
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "cold snap outside, aching crept back up overnight",
+        "severity": 4
+      },
+      {
+        "day": 18,
+        "type": "wearable",
+        "text": "Oura: readiness 61 — meaningful improvement over two weeks",
+        "severity": null
+      },
+      {
+        "day": 20,
+        "type": "symptom",
+        "text": "moderate day, managing okay — duloxetine might be working",
+        "severity": 3
+      }
+    ],
+    "interventions": [
+      {
+        "name": "duloxetine 60mg daily",
+        "outcome": "sustained moderate pain reduction over 6 weeks",
+        "outcome_score": 2,
+        "notes": "took about 3 weeks to feel real difference; keeping on it"
+      },
+      {
+        "name": "magnesium glycinate 400mg at bedtime",
+        "outcome": "improved deep sleep metrics within 1 week",
+        "outcome_score": 2,
+        "notes": "Oura data shows real change; feels more rested"
+      }
+    ]
+  },
+  {
+    "id": "fibro-005",
+    "condition": "Fibromyalgia",
+    "demographics": "NB, 29, Portland",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "life",
+        "text": "started new WFH schedule — hoping less commute stress helps",
+        "severity": null
+      },
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "diffuse aching everywhere, no single spot — just… all of it",
+        "severity": 3
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "LDN 4.5mg — been on this dose 6 weeks now",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "wearable",
+        "text": "Whoop: strain 2.1/21, HRV 19ms — body is depleted",
+        "severity": null
+      },
+      {
+        "day": 4,
+        "type": "symptom",
+        "text": "brain fog · couldn't write a single work email all morning",
+        "severity": 4
+      },
+      {
+        "day": 5,
+        "type": "meal",
+        "text": "skipped lunch again — no appetite and too tired to make anything",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "heart racing just from walking to the kitchen — 110bpm",
+        "severity": 3
+      },
+      {
+        "day": 7,
+        "type": "life",
+        "text": "therapist session — talked about pacing, hard to accept limits",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "tender spots on sternum and collarbone · really uncomfortable",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "Whoop: sleep performance 42%, recovery 'red' again",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "meal",
+        "text": "bone broth and rice — easy on the gut at least",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "PEM hitting hard — back to bed by 10am",
+        "severity": 5
+      },
+      {
+        "day": 12,
+        "type": "life",
+        "text": "no screens before bed experiment — night 1",
+        "severity": null
+      },
+      {
+        "day": 13,
+        "type": "symptom",
+        "text": "slept 7 solid hours — woke up at a 3/10 instead of 5/10",
+        "severity": 2
+      },
+      {
+        "day": 14,
+        "type": "wearable",
+        "text": "Whoop: HRV up to 28ms — best in a month",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "two okay days in a row — suspicious but grateful",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "low-dose naltrexone 4.5mg",
+        "outcome": "modest overall improvement, PEM still occurring",
+        "outcome_score": 1,
+        "notes": "not a cure but takes the edge off on average days"
+      },
+      {
+        "name": "no-screen sleep hygiene protocol",
+        "outcome": "meaningful HRV and sleep improvement within days",
+        "outcome_score": 2,
+        "notes": "hardest part is sticking to it; worth it when I do"
+      }
+    ]
+  },
+  {
+    "id": "fibro-006",
+    "condition": "Fibromyalgia",
+    "demographics": "F, 58, Phoenix",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "woke at 3am with burning leg pain — couldn't get back to sleep",
+        "severity": 5
+      },
+      {
+        "day": 2,
+        "type": "med",
+        "text": "started amitriptyline 10mg for sleep — new from neurologist",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "groggy hangover from amitriptyline — brain like wet cement",
+        "severity": 4
+      },
+      {
+        "day": 4,
+        "type": "life",
+        "text": "cancelled lunch plans, couldn't face being around people",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "wearable",
+        "text": "Fitbit: 6.5hrs sleep, finally — but quality still poor",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "symptom",
+        "text": "tender points at base of skull and between shoulders · severe",
+        "severity": 5
+      },
+      {
+        "day": 7,
+        "type": "meal",
+        "text": "big social dinner — overdid salt, bloated and miserable after",
+        "severity": null
+      },
+      {
+        "day": 8,
+        "type": "symptom",
+        "text": "bloated again 😩, body feels swollen and achy",
+        "severity": 4
+      },
+      {
+        "day": 9,
+        "type": "med",
+        "text": "duloxetine 30mg added alongside amitriptyline",
+        "severity": null
+      },
+      {
+        "day": 11,
+        "type": "symptom",
+        "text": "dizziness on standing — not sure if meds or fibro",
+        "severity": 3
+      },
+      {
+        "day": 13,
+        "type": "wearable",
+        "text": "Fitbit: heart rate 94bpm resting — higher than my usual 72",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "life",
+        "text": "called rheumatologist about dizziness — told to monitor",
+        "severity": null
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "still dizzy on standing, nearly fell getting up this morning",
+        "severity": 4
+      },
+      {
+        "day": 17,
+        "type": "meal",
+        "text": "cutting back on caffeine per doctor — down to one cup",
+        "severity": null
+      },
+      {
+        "day": 19,
+        "type": "symptom",
+        "text": "fog lifted a bit — completed a crossword puzzle, small victory",
+        "severity": 2
+      },
+      {
+        "day": 21,
+        "type": "wearable",
+        "text": "Fitbit: resting HR settling to 80bpm, sleep 6.8hrs",
+        "severity": null
+      },
+      {
+        "day": 22,
+        "type": "symptom",
+        "text": "pain level 3 today — duloxetine combo may be helping",
+        "severity": 3
+      }
+    ],
+    "interventions": [
+      {
+        "name": "amitriptyline 10mg at bedtime",
+        "outcome": "sleep duration improved but morning grogginess was significant",
+        "outcome_score": 0,
+        "notes": "trading one problem for another; dose may need adjusting"
+      },
+      {
+        "name": "duloxetine 30mg added",
+        "outcome": "gradual pain improvement after 2 weeks",
+        "outcome_score": 1,
+        "notes": "dizziness side effect concerning — being monitored"
+      }
+    ]
+  },
+  {
+    "id": "fibro-007",
+    "condition": "Fibromyalgia",
+    "demographics": "M, 38, Chicago",
+    "synthetic": true,
+    "timeline": [
+      {
+        "day": 1,
+        "type": "symptom",
+        "text": "hands and forearms aching — makes typing agony",
+        "severity": 4
+      },
+      {
+        "day": 1,
+        "type": "med",
+        "text": "day 1 of duloxetine 30mg — nervous about side effects",
+        "severity": null
+      },
+      {
+        "day": 2,
+        "type": "life",
+        "text": "read about cold water immersion for fibro — decided to try it",
+        "severity": null
+      },
+      {
+        "day": 3,
+        "type": "symptom",
+        "text": "nausea from duloxetine — took it with food, helped a bit",
+        "severity": 3
+      },
+      {
+        "day": 4,
+        "type": "meal",
+        "text": "high-protein breakfast to pair with meds — eggs and avocado",
+        "severity": null
+      },
+      {
+        "day": 5,
+        "type": "symptom",
+        "text": "tried cold shower — pain spiked immediately, horrible idea",
+        "severity": 5
+      },
+      {
+        "day": 5,
+        "type": "life",
+        "text": "cold water thing was a disaster — never again",
+        "severity": null
+      },
+      {
+        "day": 6,
+        "type": "wearable",
+        "text": "Apple Watch: sleep 4.9hrs, woke 6 times — terrible night",
+        "severity": null
+      },
+      {
+        "day": 7,
+        "type": "symptom",
+        "text": "widespread aching after that rough night — can't catch a break",
+        "severity": 5
+      },
+      {
+        "day": 8,
+        "type": "med",
+        "text": "added melatonin 3mg — sleep hygiene push",
+        "severity": null
+      },
+      {
+        "day": 9,
+        "type": "wearable",
+        "text": "Watch: sleep 6.2hrs with melatonin, only 2 wake-ups",
+        "severity": null
+      },
+      {
+        "day": 10,
+        "type": "symptom",
+        "text": "slept better and pain is a 3 today — connection feels real",
+        "severity": 3
+      },
+      {
+        "day": 11,
+        "type": "meal",
+        "text": "meal prepped for the week — less decision fatigue helps",
+        "severity": null
+      },
+      {
+        "day": 12,
+        "type": "symptom",
+        "text": "brain fog · moderate, but pushed through a work meeting",
+        "severity": 3
+      },
+      {
+        "day": 13,
+        "type": "life",
+        "text": "partner helping with evening routine to protect sleep window",
+        "severity": null
+      },
+      {
+        "day": 14,
+        "type": "wearable",
+        "text": "Watch: resting HR 70bpm, HRV 31ms — body stabilizing",
+        "severity": null
+      },
+      {
+        "day": 15,
+        "type": "symptom",
+        "text": "best day in a month — still achy but functional, maybe a 4/10",
+        "severity": 2
+      },
+      {
+        "day": 16,
+        "type": "symptom",
+        "text": "tender points calmer, managed a slow 10-min walk outside",
+        "severity": 2
+      }
+    ],
+    "interventions": [
+      {
+        "name": "cold water immersion therapy",
+        "outcome": "immediate pain spike — made symptoms significantly worse",
+        "outcome_score": -1,
+        "notes": "completely wrong for this condition; do not repeat"
+      },
+      {
+        "name": "duloxetine 30mg daily",
+        "outcome": "slow but real pain reduction over two weeks",
+        "outcome_score": 1,
+        "notes": "nausea first few days; manageable with food"
+      },
+      {
+        "name": "melatonin 3mg + sleep hygiene",
+        "outcome": "notable sleep improvement, pain correlated positively",
+        "outcome_score": 2,
+        "notes": "partner support making consistency easier"
+      }
+    ]
+  }
+]
