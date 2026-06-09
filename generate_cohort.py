@@ -4,6 +4,7 @@
 import json
 import os
 import time
+from collections import Counter
 from pathlib import Path
 
 import anthropic
@@ -198,8 +199,6 @@ def main() -> None:
 
     print(f"\nWrote {len(all_journeys)} journeys to cohort.json")
     print("Sanity check:")
-    from collections import Counter
-
     scores = [
         iv["outcome_score"]
         for j in all_journeys

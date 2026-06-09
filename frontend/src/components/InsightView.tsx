@@ -17,6 +17,7 @@ function parseConfidence(confidence: string): { level: ConfidenceLevel; detail: 
 }
 
 export function InsightView({ insight, onReset }: Props) {
+  const confidence = parseConfidence(insight.confidence);
   return (
     <div className="view">
       <h2>Insight</h2>
@@ -66,15 +67,15 @@ export function InsightView({ insight, onReset }: Props) {
         </div>
       )}
 
-      <div className={`confidence-card confidence-${parseConfidence(insight.confidence).level}`}>
+      <div className={`confidence-card confidence-${confidence.level}`}>
         <div className="confidence-header">
           <span className="confidence-label">Confidence</span>
-          <span className={`confidence-chip confidence-chip-${parseConfidence(insight.confidence).level}`}>
-            {parseConfidence(insight.confidence).level.toUpperCase()}
+          <span className={`confidence-chip confidence-chip-${confidence.level}`}>
+            {confidence.level.toUpperCase()}
           </span>
         </div>
-        {parseConfidence(insight.confidence).detail && (
-          <p className="confidence-detail">{parseConfidence(insight.confidence).detail}</p>
+        {confidence.detail && (
+          <p className="confidence-detail">{confidence.detail}</p>
         )}
       </div>
 

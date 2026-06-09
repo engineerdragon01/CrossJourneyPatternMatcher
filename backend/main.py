@@ -10,14 +10,12 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import List, Literal, Optional, Tuple
 
-import anthropic as anthropic_sdk
+import anthropic
+import numpy as np
 from pydantic import ValidationError
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-import anthropic
-import numpy as np
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -165,7 +163,7 @@ async def lifespan(app: FastAPI):
     journeys = json.loads(cohort_path.read_text(encoding="utf-8"))
     signatures = [build_signature(j) for j in journeys]
     sig_matrix = embed(signatures)
-    print(f"Loaded {len(journeys)} journeys; embedding matrix shape: {sig_matrix.shape}")
+    logger.info("Loaded %d journeys; embedding matrix shape: %s", len(journeys), sig_matrix.shape)
     yield
 
 
@@ -255,7 +253,7 @@ def insight(req: TimelineRequest):
             system=INSIGHT_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],
         )
-    except anthropic_sdk.APIError as exc:
+    except anthropic.APIError as exc:
         logger.error("Anthropic API error: %s", exc)
         raise HTTPException(status_code=502, detail={"error": "Claude API error", "detail": str(exc)})
 
