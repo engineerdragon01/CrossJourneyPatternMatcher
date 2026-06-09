@@ -10,6 +10,9 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import List, Literal, Optional, Tuple
 
+import anthropic as anthropic_sdk
+from pydantic import ValidationError
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -244,34 +247,43 @@ def insight(req: TimelineRequest):
     )
 
     # Call Claude
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4096,
-        system=INSIGHT_SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
-    )
+    try:
+        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        msg = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=4096,
+            system=INSIGHT_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_message}],
+        )
+    except anthropic_sdk.APIError as exc:
+        logger.error("Anthropic API error: %s", exc)
+        raise HTTPException(status_code=502, detail={"error": "Claude API error", "detail": str(exc)})
 
     raw = msg.content[0].text
     logger.info("Claude stop_reason=%s output_tokens=%s", msg.stop_reason, msg.usage.output_tokens)
     logger.info("Claude raw response: %s", raw[:500])
 
-    # Parse defensively
+    # Parse and construct response — catch all failure modes
     try:
         data = parse_insight_json(raw)
-    except (json.JSONDecodeError, ValueError) as exc:
-        logger.error("Failed to parse insight JSON: %s\nRaw: %s", exc, raw)
+        interventions = [
+            InterventionInsight(
+                name=iv.get("name", ""),
+                cohort_evidence=iv.get("cohort_evidence") or iv.get("evidence", ""),
+                outcome_summary=iv.get("outcome_summary") or iv.get("outcomes", ""),
+            )
+            for iv in data.get("interventions_to_explore", [])
+        ]
+        return InsightResponse(
+            summary=data["summary"],
+            patterns=data.get("patterns", []),
+            interventions_to_explore=interventions,
+            confidence=data.get("confidence", "low — could not determine"),
+            match_count=len(matched),
+        )
+    except (json.JSONDecodeError, ValueError, KeyError, ValidationError) as exc:
+        logger.error("Failed to build insight response: %s\nRaw: %s", exc, raw)
         raise HTTPException(
             status_code=502,
             detail={"error": "insight generation failed", "detail": str(exc)},
         )
-
-    return InsightResponse(
-        summary=data["summary"],
-        patterns=data["patterns"],
-        interventions_to_explore=[
-            InterventionInsight(**iv) for iv in data["interventions_to_explore"]
-        ],
-        confidence=data["confidence"],
-        match_count=len(matched),
-    )
