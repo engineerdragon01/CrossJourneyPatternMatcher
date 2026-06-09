@@ -30,7 +30,10 @@ export function MatchesView({ matches, onGetInsight, onBack, loading }: Props) {
               <div className="score-bar-track">
                 <div
                   className="score-bar-fill"
-                  style={{ width: `${Math.round(m.score * 100)}%` }}
+                  style={{
+                    width: `${Math.round(m.score * 100)}%`,
+                    background: m.score >= 0.8 ? 'var(--high)' : m.score >= 0.65 ? 'var(--moderate)' : 'var(--accent)',
+                  }}
                 />
               </div>
               <span className="score-value">{(m.score * 100).toFixed(0)}% match</span>

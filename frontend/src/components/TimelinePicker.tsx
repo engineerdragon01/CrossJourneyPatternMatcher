@@ -40,10 +40,18 @@ export function TimelinePicker({ onSubmit, loading }: Props) {
       <h2>Choose a preset</h2>
       <div className="preset-grid">
         {PRESETS.map((preset, i) => (
-          <button
+          <div
             key={i}
+            role="button"
+            tabIndex={0}
             className={`preset-card ${selected === i ? "selected" : ""}`}
             onClick={() => setSelected(selected === i ? null : i)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                setSelected(selected === i ? null : i);
+              }
+            }}
           >
             <strong>{preset.label}</strong>
             <span>{preset.description}</span>
@@ -55,7 +63,7 @@ export function TimelinePicker({ onSubmit, loading }: Props) {
                 <li className="more">+{preset.timeline.length - 3} more</li>
               )}
             </ul>
-          </button>
+          </div>
         ))}
       </div>
 
