@@ -4,10 +4,14 @@ Startup: loads cohort.json, builds symptom-only signatures, embeds them into a n
 matrix held in RAM. No database, no persistence.
 """
 import json
+import logging
 import os
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import List, Literal, Optional, Tuple
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 import anthropic
 import numpy as np
@@ -121,12 +125,25 @@ def timeline_signature(timeline: List[Event]) -> str:
 
 def parse_insight_json(text: str) -> dict:
     text = text.strip()
-    if text.startswith("```"):
-        parts = text.split("```", 2)
-        inner = parts[1]
-        if inner.startswith("json\n"):
-            inner = inner[5:]
-        text = inner.rsplit("```", 1)[0].strip()
+
+    # Strip markdown fences if present
+    if "```" in text:
+        parts = text.split("```")
+        for part in parts:
+            candidate = part.strip()
+            if candidate.startswith("json\n"):
+                candidate = candidate[5:].strip()
+            if candidate.startswith("{"):
+                text = candidate
+                break
+
+    # If not a clean JSON block, extract the outermost { ... }
+    if not text.startswith("{"):
+        start = text.find("{")
+        end = text.rfind("}")
+        if start != -1 and end != -1:
+            text = text[start:end + 1]
+
     data = json.loads(text)
     for key in ("summary", "patterns", "interventions_to_explore", "confidence"):
         if key not in data:
@@ -230,15 +247,20 @@ def insight(req: TimelineRequest):
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     msg = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=1024,
+        max_tokens=4096,
         system=INSIGHT_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )
 
+    raw = msg.content[0].text
+    logger.info("Claude stop_reason=%s output_tokens=%s", msg.stop_reason, msg.usage.output_tokens)
+    logger.info("Claude raw response: %s", raw[:500])
+
     # Parse defensively
     try:
-        data = parse_insight_json(msg.content[0].text)
+        data = parse_insight_json(raw)
     except (json.JSONDecodeError, ValueError) as exc:
+        logger.error("Failed to parse insight JSON: %s\nRaw: %s", exc, raw)
         raise HTTPException(
             status_code=502,
             detail={"error": "insight generation failed", "detail": str(exc)},
